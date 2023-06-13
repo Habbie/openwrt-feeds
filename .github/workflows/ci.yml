@@ -105,8 +105,8 @@ jobs:
         run: env # TODO
       - name: Configure git
         run: |
-          git config user.name ${{ env.git-author-name }}
-          git config user.email ${{ env.git-author-email }}
+          git config user.name "${{ env.git-author-name }}"
+          git config user.email "${{ env.git-author-email }}"
       - name: Commit
         run: |
           git add -A
