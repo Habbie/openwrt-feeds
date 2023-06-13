@@ -62,6 +62,7 @@ jobs:
           ( echo "src-link custom ${GITHUB_WORKSPACE}/package" ; cat feeds.conf.default ) > feeds.conf
           scripts/feeds update packages >/dev/null
           scripts/feeds update base >/dev/null
+          scripts/feeds update custom >/dev/null
       - name: Build package
         run: |
           set -x
