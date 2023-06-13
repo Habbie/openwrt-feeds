@@ -1,1 +1,1 @@
-{"architecture": "x86_64", "packages":{"libh2o-evloop": "2.2.6-13", "libh2o": "2.2.6-13", "libuv1": "1.44.1-1", "libyaml": "0.2.5-1"}}
+{"architecture": "x86_64", "packages":{"libuv1": "1.44.1-1", "libyaml": "0.2.5-1"}}

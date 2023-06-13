@@ -1,27 +1,3 @@
-Package: libh2o-evloop
-Version: 2.2.6-13
-Depends: libc, libopenssl3, zlib, libyaml
-License: MIT
-Section: libs
-Architecture: x86_64
-Installed-Size: 165647
-Filename: libh2o-evloop_2.2.6-13_x86_64.ipk
-Size: 166402
-SHA256sum: 75cf0522305f7d9e3099bd0fada257dd00fe9e354bdd58d530e0c7cfdfa78eec
-Description:  H2O Library compiled with its own event loop
-
-Package: libh2o
-Version: 2.2.6-13
-Depends: libc, libuv1, libopenssl3, zlib, libyaml
-License: MIT
-Section: libs
-Architecture: x86_64
-Installed-Size: 163724
-Filename: libh2o_2.2.6-13_x86_64.ipk
-Size: 164448
-SHA256sum: f985d3c7e8514f527ad24fe902de641607de800e0e648906da8379d55c47a221
-Description:  H2O Library compiled with libuv
-
 Package: libuv1
 Version: 1.44.1-1
 Depends: libc, libpthread, librt
