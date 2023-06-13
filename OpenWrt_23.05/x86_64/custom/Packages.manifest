@@ -1,0 +1,34 @@
+Package: libh2o-evloop
+Version: 2.2.6-14
+Depends: libc, libopenssl3, zlib, libyaml
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/h2o
+SourceName: libh2o-evloop
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1686682993
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 165645
+Filename: libh2o-evloop_2.2.6-14_x86_64.ipk
+Size: 166420
+SHA256sum: ce833660294b1cace66c2d1a187f4d24f295a358bea8cdd034c0d81b046a58b6
+Description:  H2O Library compiled with its own event loop
+
+Package: libh2o
+Version: 2.2.6-14
+Depends: libc, libuv1, libopenssl3, zlib, libyaml
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/h2o
+SourceName: libh2o
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1686682993
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 163720
+Filename: libh2o_2.2.6-14_x86_64.ipk
+Size: 164444
+SHA256sum: cf619cadb745bb3e3b6ad6d7398f022fe1e6a8aa699031c7afc9cfab425464de
+Description:  H2O Library compiled with libuv
+
