@@ -65,10 +65,10 @@ jobs:
         run: |
           set -x
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
-          cp ${GITHUB_WORKSPACE}/default-dot-config .config
+          scripts/feeds install h2o # FIXME
+          cat ${GITHUB_WORKSPACE}/default-dot-config >> .config
           make defconfig
           grep -i openssl_engine .config
-          scripts/feeds install h2o # FIXME
           for pkg in ${{ env.pkgs }} ; do make -j$(nproc) V=s package/$pkg/compile ; done
           make -j1 V=s package/index
       - name: Prepare artifact
