@@ -65,7 +65,7 @@ jobs:
         run: |
           set -x
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
-          scripts/feeds install h2o # FIXME
+          scripts/feeds install -f h2o # FIXME
           cat ${GITHUB_WORKSPACE}/default-dot-config >> .config
           make defconfig
           grep -i openssl_engine .config
