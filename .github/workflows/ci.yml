@@ -46,7 +46,7 @@ jobs:
       - name: Set up package dir and signing key
         run: |
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
-          for f in ${GITHUB_WORKSPACE}/package/* ; do ln -s $f package/ ; done
+          # for f in ${GITHUB_WORKSPACE}/package/* ; do ln -s $f package/ ; done
           # ln -s "${GITHUB_WORKSPACE}"/Makefile package/${{ env.owrt-package }}/
           # ln -s "${GITHUB_WORKSPACE}"/files package/${{ env.owrt-package }}/
           echo 'untrusted comment: usign key for PowerDNS OpenWrt package feeds' > key-build
@@ -59,6 +59,7 @@ jobs:
       - name: Update packages feed
         run: |
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
+          ( echo "src-link custom ${GITHUB_WORKSPACE}/package" ; cat feeds.conf.default ) > feeds.conf
           scripts/feeds update packages >/dev/null
           scripts/feeds update base >/dev/null
       - name: Build package
