@@ -63,6 +63,7 @@ jobs:
           scripts/feeds update base >/dev/null
       - name: Build package
         run: |
+          set -x
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
           cp ${GITHUB_WORKSPACE}/default-dot-config .config
           make defconfig
