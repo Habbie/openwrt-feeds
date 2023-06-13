@@ -1,0 +1,2211 @@
+Package: libdb47
+Version: 4.7.25.4.NC-6
+Depends: libc
+Provides: libdb47-full
+License: Sleepycat
+Section: libs
+Architecture: x86_64
+Installed-Size: 525011
+Filename: libdb47_4.7.25.4.NC-6_x86_64.ipk
+Size: 525315
+SHA256sum: a391c21e618b396d393130ac6db4d142b76eba50c4e4d692d68ad4b045b775d2
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-6
+Depends: libc, libdb47, uclibcxx
+Provides: libdb47xx-full
+License: Sleepycat
+Section: libs
+Architecture: x86_64
+Installed-Size: 559679
+Filename: libdb47xx_4.7.25.4.NC-6_x86_64.ipk
+Size: 560088
+SHA256sum: 27fa0652e744cb85f98e2cbf4a51b055980de947afb4c8794f42ed92f2d93054
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 14817
+Filename: libffi_3.3-2_x86_64.ipk
+Size: 15803
+SHA256sum: 2844a2f5e74df62668456c76adc20dc96238312dee1c84f38946c95e3eb30fcc
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.18.1-2
+Depends: libc
+License: GPL-3.0-or-later
+Section: libs
+Architecture: x86_64
+Installed-Size: 21118
+Filename: libgdbm_1.18.1-2_x86_64.ipk
+Size: 21882
+SHA256sum: 39c24d16a10ea2367c9e24222cd59d1e0c089236433c54721b34eddd31c665a4
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libh2o-evloop
+Version: 2.2.6-7
+Depends: libc, libopenssl1.1, zlib, libyaml, ruby
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 496888
+Filename: libh2o-evloop_2.2.6-7_x86_64.ipk
+Size: 497525
+SHA256sum: b7413b83ac9f475799559259cd21bdc6078beb6f60eda7c18b850011c2366c4e
+Description:  H2O Library compiled with its own event loop
+
+Package: libh2o
+Version: 2.2.6-7
+Depends: libc, libuv1, libopenssl1.1, zlib, libyaml, ruby
+License: MIT
+Section: libs
+Architecture: x86_64
+Installed-Size: 492071
+Filename: libh2o_2.2.6-7_x86_64.ipk
+Size: 492656
+SHA256sum: 900d398000800c060d710a69a0616b7f201a36e89ece4ae4e323b54a38629f47
+Description:  H2O Library compiled with libuv
+
+Package: libruby3.0
+Version: 3.0.5-1
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 3.0
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1113618
+Filename: libruby3.0_3.0.5-1_x86_64.ipk
+Size: 1108672
+SHA256sum: 9341cc26465dacb3928ca59a883f6d9aff243d941472e6f2139986e1c4cd9c05
+Description:  Ruby scripting language (shared library)
+
+Package: libuv1
+Version: 1.40.0-3
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: x86_64
+Installed-Size: 62306
+Filename: libuv1_1.40.0-3_x86_64.ipk
+Size: 63250
+SHA256sum: 0049a1683a81b733fa70dcdd4631effb0e1a1a0b67289aa257aad019760bb73d
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libxml2-dev
+Version: 2.9.14-1
+Depends: libc, libxml2
+License: MIT
+Section: devel
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: x86_64
+Installed-Size: 86449
+Filename: libxml2-dev_2.9.14-1_x86_64.ipk
+Size: 87352
+SHA256sum: 264950bcffc5413cfb1927e8bfa62df15185b9d3b5eecd300b3cca0811dd9f92
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.9.14-1
+Depends: libc, libxml2
+License: MIT
+Section: utils
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: x86_64
+Installed-Size: 21983
+Filename: libxml2-utils_2.9.14-1_x86_64.ipk
+Size: 22701
+SHA256sum: f888c5fa6aff5ad72a993ad5670716351648b230b8c7feca20a734d69f778beb
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.9.14-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: x86_64
+Installed-Size: 505406
+Filename: libxml2_2.9.14-1_x86_64.ipk
+Size: 504308
+SHA256sum: 8854db4e8a6ddaf54255bf0d4338ff05b23aed292c72bcec6106041b69dda3fe
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: x86_64
+Installed-Size: 41082
+Filename: libyaml_0.2.5-1_x86_64.ipk
+Size: 41928
+SHA256sum: 8153ad7b5be5175adf42dc713de72f5ab54d7702c797f169b15d8ffb3c729b3f
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: ruby-abbrev
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1981
+Filename: ruby-abbrev_3.0.5-1_x86_64.ipk
+Size: 2858
+SHA256sum: 1bdba1338a888432694d5ae604188db55ea836b279390110a5ad8705d87cd273
+Description:  This package contains the ruby Calculates the set of unambiguous abbreviations for a given set of strings.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/abbrev.rb 
+ - /usr/lib/ruby/gems/3.0/gems/abbrev-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/abbrev-*.gemspec
+ 
+
+Package: ruby-base64
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2032
+Filename: ruby-base64_3.0.5-1_x86_64.ipk
+Size: 2877
+SHA256sum: 0d1d871a0e60ec3d121894b433c36f89975953fd9b3b0c0af3699ccff3339592
+Description:  This package contains the ruby Encode and decode base64.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/base64.rb 
+ - /usr/lib/ruby/gems/3.0/gems/base64-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/base64-*.gemspec
+ 
+
+Package: ruby-benchmark
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5897
+Filename: ruby-benchmark_3.0.5-1_x86_64.ipk
+Size: 6751
+SHA256sum: 05a4a09ccc7f98c5fdfa4d38e737b4b61cfa0c1357ebec1d4613d3b5baa50557
+Description:  This package contains the ruby Performance benchmarking library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/benchmark.rb 
+ - /usr/lib/ruby/3.0/benchmark/ 
+ - /usr/lib/ruby/gems/3.0/gems/benchmark-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/benchmark-*.gemspec
+ 
+
+Package: ruby-bigdecimal
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 33082
+Filename: ruby-bigdecimal_3.0.5-1_x86_64.ipk
+Size: 33984
+SHA256sum: 6fbda8d20e7ceab06353a8193c55d5ae89d9d77f3559198797d9748cb6c281dc
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/bigdecimal.so 
+ - /usr/lib/ruby/3.0/bigdecimal/ 
+ - /usr/lib/ruby/3.0/bigdecimal.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-bundler
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-open-uri, ruby-readline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 341159
+Filename: ruby-bundler_3.0.5-1_x86_64.ipk
+Size: 342066
+SHA256sum: 7785e8b321bdb66985d0509866dc129f9370ec45d0bfb876031944749e679ccf
+Description:  This package contains the ruby Manage dependencies.
+ 
+
+Package: ruby-cgi
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-pstore, ruby-securerandom, ruby-shellwords, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 34209
+Filename: ruby-cgi_3.0.5-1_x86_64.ipk
+Size: 35135
+SHA256sum: cd89a9c9de75d5564b95c11205aa3022c97b6cfcd2cacb72027f337d966da756
+Description:  This package contains the ruby CGI support toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/cgi.rb 
+ - /usr/lib/ruby/3.0/cgi/ 
+ - /usr/lib/ruby/gems/3.0/gems/cgi-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/cgi-*.gemspec 
+ - /usr/lib/ruby/3.0/*/cgi/escape.so
+ 
+
+Package: ruby-continuation
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1098
+Filename: ruby-continuation_3.0.5-1_x86_64.ipk
+Size: 1944
+SHA256sum: 936a04c1230919f7d3aacb8d8fb5edf598a63fafb0b77909529f2b3f6fac1e18
+Description:  This package contains the ruby Similar to C setjmp/longjmp with extra states.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/continuation.so
+ 
+
+Package: ruby-coverage
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3977
+Filename: ruby-coverage_3.0.5-1_x86_64.ipk
+Size: 4810
+SHA256sum: 7bd11e3502163e4823b62fd1aa0650aeeb37c85fc432af4d04266a0403409c0e
+Description:  This package contains the ruby Coverage measurement.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/coverage.rb 
+ - /usr/lib/ruby/3.0/*/coverage.so
+ 
+
+Package: ruby-csv
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-date, ruby-english, ruby-forwardable, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 38480
+Filename: ruby-csv_3.0.5-1_x86_64.ipk
+Size: 39460
+SHA256sum: a33409613f205020c97d1185be636c543937bbe34249797076dd178c4e11cf0b
+Description:  This package contains the ruby CSV Reading and Writing.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/csv.rb 
+ - /usr/lib/ruby/3.0/csv/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/csv-*.gemspec
+ 
+
+Package: ruby-date
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 62990
+Filename: ruby-date_3.0.5-1_x86_64.ipk
+Size: 63925
+SHA256sum: 632dc3cc605c6baf4c0a47154d6ab218c56dc12f9ba3ca15c57fd45833146bd7
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/date.rb 
+ - /usr/lib/ruby/3.0/*/date_core.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-dbm
+Version: 3.0.5-1
+Depends: libc, ruby, libdb47
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8154
+Filename: ruby-dbm_3.0.5-1_x86_64.ipk
+Size: 9082
+SHA256sum: 263a421fec6fa098c301057ce4a3c870f87f7cb4963461c6f0d984e09d66dcc8
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/dbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/dbm-*.gemspec
+ 
+
+Package: ruby-debug
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-continuation, ruby-pp, ruby-readline, ruby-tracer
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8221
+Filename: ruby-debug_3.0.5-1_x86_64.ipk
+Size: 9147
+SHA256sum: 79aa86811136da14190d74bf1a2897c2f548d4f94ffb5885f10681d38008114f
+Description:  This package contains the ruby generic command line interface for ruby-debug.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/debug.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/debug-*.gemspec
+ 
+
+Package: ruby-delegate
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 4391
+Filename: ruby-delegate_3.0.5-1_x86_64.ipk
+Size: 5234
+SHA256sum: bba9d526db1a417ea0eaa22cf5c4c263f088c5fe989106f1654469a9f6323674
+Description:  This package contains the ruby lib to delegate method calls to an object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/delegate.rb 
+ - /usr/lib/ruby/3.0/delegate/ 
+ - /usr/lib/ruby/gems/3.0/gems/delegate-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/delegate-*.gemspec
+ 
+
+Package: ruby-dev
+Version: 3.0.5-1
+Depends: libc, libruby3.0, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 270810
+Filename: ruby-dev_3.0.5-1_x86_64.ipk
+Size: 270975
+SHA256sum: 157ac6e582ef6020fe4ccbd129f6ffc57c081b3a451d5ed3521f1bb4a94c34d6
+Description:  Header files for compiling extension modules for the Ruby 3.0
+
+Package: ruby-did-you-mean
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 7580
+Filename: ruby-did-you-mean_3.0.5-1_x86_64.ipk
+Size: 8482
+SHA256sum: b669645ca52a455623520068e1eba729dad7a76a11b4d3726b3fccdd5b034305
+Description:  This package contains the ruby did you mean? experience.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/did_you_mean.rb 
+ - /usr/lib/ruby/3.0/did_you_mean/ 
+ - /usr/lib/ruby/gems/3.0/gems/did_you_mean-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/did_you_mean-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 24925
+Filename: ruby-digest_3.0.5-1_x86_64.ipk
+Size: 25743
+SHA256sum: 697fb9e575ee386703b4c470d74176b1c09459661ff661fb4669122b105d9220
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/digest 
+ - /usr/lib/ruby/3.0/digest.rb 
+ - /usr/lib/ruby/3.0/*/digest.so 
+ - /usr/lib/ruby/3.0/*/digest/* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/digest-*.gemspec
+ 
+
+Package: ruby-drb
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-ipaddr, ruby-monitor, ruby-observer, ruby-singleton, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 25872
+Filename: ruby-drb_3.0.5-1_x86_64.ipk
+Size: 26759
+SHA256sum: f11313302486b106f48df686b1117b818bfca3667ec8355ddba948006031ac9b
+Description:  This package contains the ruby distributed object system.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/drb.rb 
+ - /usr/lib/ruby/3.0/drb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/drb-*.gemspec
+ 
+
+Package: ruby-enc-extra
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1392961
+Filename: ruby-enc-extra_3.0.5-1_x86_64.ipk
+Size: 1259362
+SHA256sum: 4738ea156b0d93d38028392eb058903100748f598ce3f58b700fd0c72b313c72
+Description:  This package contains the ruby character re-coding library charset (extra subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-enc
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 9675
+Filename: ruby-enc_3.0.5-1_x86_64.ipk
+Size: 10475
+SHA256sum: dfbb816152e73240feca22fda927f59a42f27fd6bc0cf41564b3358122fc13c7
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-english
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2799
+Filename: ruby-english_3.0.5-1_x86_64.ipk
+Size: 3666
+SHA256sum: fdd20f2d80132960a1b82457d5152d69fc954a9c10bf11f6322b9f288b324661
+Description:  This package contains the ruby Reference some global vars as english variables.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/English.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/english-*.gemspec
+ 
+
+Package: ruby-erb
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-gems
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 11456
+Filename: ruby-erb_3.0.5-1_x86_64.ipk
+Size: 12258
+SHA256sum: 041d7ace45184e880bdff00f349ccc54bab2dc28729b4bcfb7eae0d3dd6625c4
+Description:  This package contains the ruby (embedded interpreter).
+ 
+
+Package: ruby-etc
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8567
+Filename: ruby-etc_3.0.5-1_x86_64.ipk
+Size: 9423
+SHA256sum: dba44288a74076fbe532120a93442ab83ef97588a71dc119b33b4fcdac435604
+Description:  This package contains the ruby Access info typically stored in /etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/etc.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/etc-*.gemspec
+ 
+
+Package: ruby-expect
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1190
+Filename: ruby-expect_3.0.5-1_x86_64.ipk
+Size: 2015
+SHA256sum: 71342cc34b65dd485187ba88e19f1198c0fbb24790f24951798806f6b4db98a1
+Description:  This package contains the ruby Expect-like for IO.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/expect.rb
+ 
+
+Package: ruby-fcntl
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1981
+Filename: ruby-fcntl_3.0.5-1_x86_64.ipk
+Size: 2833
+SHA256sum: 06fb297c9bbfc290dc351c6b150e7c86927642fe6be94d377556461e3416ffdd
+Description:  This package contains the ruby Loads constants defined in the OS fcntl.h C header file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fcntl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fcntl-*.gemspec
+ 
+
+Package: ruby-fiber
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1018
+Filename: ruby-fiber_3.0.5-1_x86_64.ipk
+Size: 1856
+SHA256sum: b85eb1e2fb5f3519bdafb1516979a3e4b09e4f6ada6748543bb5d7112b03368f
+Description:  This package contains the ruby Light weight cooperative concurrency.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fiber.so
+ 
+
+Package: ruby-fiddle
+Version: 3.0.5-1
+Depends: libc, ruby, libffi
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 28251
+Filename: ruby-fiddle_3.0.5-1_x86_64.ipk
+Size: 29095
+SHA256sum: de41bde23d9f7f1663e63f37b252e6c77e1cd30ee56a6866b4fb05fb982c5f67
+Description:  This package contains the ruby Libffi wrapper for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fiddle.rb 
+ - /usr/lib/ruby/3.0/fiddle/ 
+ - /usr/lib/ruby/3.0/*/fiddle.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fiddle-*.gemspec
+ 
+
+Package: ruby-fileutils
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc, ruby-etc, ruby-rbconfig, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 12634
+Filename: ruby-fileutils_3.0.5-1_x86_64.ipk
+Size: 13540
+SHA256sum: 7ff08ff9522384d82c0c50f7ce02cbc1667a9a2fa9225fc4c5da5d75a5ea4510
+Description:  This package contains the ruby File utility methods for copying moving removing etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fileutils.rb 
+ - /usr/lib/ruby/gems/3.0/gems/fileutils-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fileutils-*.gemspec
+ 
+
+Package: ruby-find
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1714
+Filename: ruby-find_3.0.5-1_x86_64.ipk
+Size: 2599
+SHA256sum: 5b711533470c36d293be453db85b5930862ead6b5b8306dba9c62fd7f1af1250
+Description:  This package contains the ruby top-down traversal of a set of file paths.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/find.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/find-*.gemspec
+ 
+
+Package: ruby-forwardable
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3779
+Filename: ruby-forwardable_3.0.5-1_x86_64.ipk
+Size: 4643
+SHA256sum: ef1be2259ab07ee2e6cb36164a41f3fb6f4a36deac88bea095f6e72403f1a45a
+Description:  This package contains the ruby delegation of methods to a object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/forwardable.rb 
+ - /usr/lib/ruby/3.0/forwardable 
+ - /usr/lib/ruby/gems/3.0/specifications/default/forwardable-*.gemspec
+ 
+
+Package: ruby-gdbm
+Version: 3.0.5-1
+Depends: libc, ruby, libgdbm
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8738
+Filename: ruby-gdbm_3.0.5-1_x86_64.ipk
+Size: 9596
+SHA256sum: bd6420d7144dcdddfd673b90d97c9374a1fe51984daee41386e75cccf9478000
+Description:  This package contains the ruby Ruby extension for GNU dbm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/gdbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/gdbm-*.gemspec
+ 
+
+Package: ruby-gems
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-base64, ruby-cgi, ruby-json, ruby-net-http, ruby-open3, ruby-pathname, ruby-pp, ruby-rake, ruby-resolv, ruby-yaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 274983
+Filename: ruby-gems_3.0.5-1_x86_64.ipk
+Size: 275945
+SHA256sum: b129032c19b12b42eb8d3c1aed19bcbd935da4c6e90b67a60b55d6b1d1788788
+Description:  This package contains the ruby gems packet management.
+ 
+
+Package: ruby-getoptlong
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5318
+Filename: ruby-getoptlong_3.0.5-1_x86_64.ipk
+Size: 6159
+SHA256sum: fd4990faa1c43bd2065b0423e69e621d6adc1eeb8b380315d8863665c5011191
+Description:  This package contains the ruby implementation of getoptLong.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/getoptlong.rb 
+ - /usr/lib/ruby/3.0/getoptlong/ 
+ - /usr/lib/ruby/gems/3.0/gems/getoptlong-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/getoptlong-*.gemspec
+ 
+
+Package: ruby-io-console
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 9502
+Filename: ruby-io-console_3.0.5-1_x86_64.ipk
+Size: 10376
+SHA256sum: 2f07d5e551428102754af1a4ad6ca09babad825d4a29ce2144fa62d1b626c266
+Description:  This package contains the ruby Console interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/console.so 
+ - /usr/lib/ruby/3.0/io/console/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-console-*.gemspec
+ 
+
+Package: ruby-io-nonblock
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2447
+Filename: ruby-io-nonblock_3.0.5-1_x86_64.ipk
+Size: 3298
+SHA256sum: 37f454588ae40671e7759c2ec0474550ac9a04e334d8bbdf60637fedc7634d97
+Description:  This package contains the ruby Non-blocking mode with IO class.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/nonblock.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-nonblock-*.gemspec
+ 
+
+Package: ruby-io-wait
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3376
+Filename: ruby-io-wait_3.0.5-1_x86_64.ipk
+Size: 4221
+SHA256sum: 84e90b9b6a2f4aad737bf2e4ae1f74af7a37cb3675dbd8540c9013e1847d286f
+Description:  This package contains the ruby Waits until IO is readable or writable without blocking.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/wait.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-wait-*.gemspec
+ 
+
+Package: ruby-ipaddr
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5944
+Filename: ruby-ipaddr_3.0.5-1_x86_64.ipk
+Size: 6818
+SHA256sum: bcb9ef9024a3408b38e4a86a4ca530c390f6a89dad44f3dc05240a9244187906
+Description:  This package contains the ruby Set of methods to manipulate an IP address.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ipaddr.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ipaddr-*.gemspec
+ 
+
+Package: ruby-irb
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-gems, ruby-reline, ruby-ripper, ruby-tracer
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 55131
+Filename: ruby-irb_3.0.5-1_x86_64.ipk
+Size: 55984
+SHA256sum: 53268eedf06a623a40ab6ae9e1032b9c8e81f597ee1b15f911e86d26c8d764d5
+Description:  This package contains the ruby (interactive shell).
+ 
+
+Package: ruby-json
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-date, ruby-ostruct
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 34523
+Filename: ruby-json_3.0.5-1_x86_64.ipk
+Size: 35498
+SHA256sum: 78327f58e5cec731ec58394083b6b262c8996c4ee4d3231f9ad678118815b111
+Description:  This package contains the ruby JSON Implementation for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/json.rb 
+ - /usr/lib/ruby/3.0/json 
+ - /usr/lib/ruby/3.0/*/json 
+ - /usr/lib/ruby/gems/3.0/specifications/default/json-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-logger
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-monitor
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8771
+Filename: ruby-logger_3.0.5-1_x86_64.ipk
+Size: 9665
+SHA256sum: dcbebc83efcd6f4594a857ee1c414ea62b2d953c010bd5e52be6804c16ef1491
+Description:  This package contains the ruby logger and syslog library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/logger.rb 
+ - /usr/lib/ruby/3.0/logger/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/logger-*.gemspec
+ 
+
+Package: ruby-matrix
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 22205
+Filename: ruby-matrix_3.0.5-1_x86_64.ipk
+Size: 23099
+SHA256sum: 83b8074e322525b5a917b9f12abe430afabae0d8c49acc8c88c7bfb1ce4d4b6c
+Description:  This package contains the ruby implementation of Matrix and Vector classes.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/matrix.rb 
+ - /usr/lib/ruby/3.0/matrix 
+ - /usr/lib/ruby/gems/3.0/specifications/default/matrix-*.gemspec
+ 
+
+Package: ruby-minitest
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-gems, ruby-mutex_m
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 30613
+Filename: ruby-minitest_3.0.5-1_x86_64.ipk
+Size: 31495
+SHA256sum: 97a5597955c85f40d632381f7422cc67ad0ef4eff0c22878bea4d647fb2c8f81
+Description:  This package contains the ruby Gem minitest.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/minitest-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.txt
+ 
+
+Package: ruby-mkmf
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-shellwords, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 25396
+Filename: ruby-mkmf_3.0.5-1_x86_64.ipk
+Size: 26194
+SHA256sum: c15197ce0ed26fc5531cf06d7c95ce986b3ed0255e60ab4a0861663048ea71d7
+Description:  This package contains the ruby makefile library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mkmf.rb
+ 
+
+Package: ruby-monitor
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5223
+Filename: ruby-monitor_3.0.5-1_x86_64.ipk
+Size: 6054
+SHA256sum: 37cb5e17164976912165cc856a0377b282c388be34a54c7afa231674f08b44d5
+Description:  This package contains the ruby Object or module methods are executed with mutual exclusion.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/monitor.rb 
+ - /usr/lib/ruby/3.0/*/monitor.so
+ 
+
+Package: ruby-mutex_m
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1622
+Filename: ruby-mutex_m_3.0.5-1_x86_64.ipk
+Size: 2470
+SHA256sum: 54d5de648498fb451333d1867b05d034678764860bbd980a79b41b4cc602d9be
+Description:  This package contains the ruby extend objects to be handled like a Mutex.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mutex_m.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/mutex_m-*.gemspec
+ 
+
+Package: ruby-net-ftp
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-time
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 12077
+Filename: ruby-net-ftp_3.0.5-1_x86_64.ipk
+Size: 12947
+SHA256sum: 0259711a6f9928638c4933cd75aa944a5005266fd330978b6de78d6c028904f6
+Description:  This package contains the ruby FTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/ftp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-ftp-*.gemspec
+ 
+
+Package: ruby-net-http
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-net-protocol, ruby-securerandom, ruby-tempfile, ruby-uri, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 29789
+Filename: ruby-net-http_3.0.5-1_x86_64.ipk
+Size: 30720
+SHA256sum: 9f9ac18ef2182f69dc38029496139b43a1816342256e7e7275e1640f85b895b1
+Description:  This package contains the ruby HTTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/http.rb 
+ - /usr/lib/ruby/3.0/net/https.rb 
+ - /usr/lib/ruby/3.0/net/http/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-http-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-http-*.gemspec
+ 
+
+Package: ruby-net-imap
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 26334
+Filename: ruby-net-imap_3.0.5-1_x86_64.ipk
+Size: 27221
+SHA256sum: 4903638f68daf718c91784fbbb0e30a7ede285b655225f918d0209638f2dcc9e
+Description:  This package contains the ruby IMAP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/imap.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-imap-*.gemspec
+ 
+
+Package: ruby-net-pop
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 7771
+Filename: ruby-net-pop_3.0.5-1_x86_64.ipk
+Size: 8673
+SHA256sum: 7e7f04cf2ae4b55a297ba2fc3acb6d463246fe19cf6dccfc4a6ff003420f844d
+Description:  This package contains the ruby POP3 lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/pop.rb 
+ - /usr/lib/ruby/3.0/net/pop/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-pop-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-pop-*.gemspec
+ 
+
+Package: ruby-net-protocol
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-socket, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 4008
+Filename: ruby-net-protocol_3.0.5-1_x86_64.ipk
+Size: 4888
+SHA256sum: 956d46dfe9f4e9aa6378f9265e7a324712476315f305e406cb7e7b843f11d802
+Description:  This package contains the ruby Abstract for net-* clients.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/protocol.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-protocol-*.gemspec
+ 
+
+Package: ruby-net-smtp
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 9698
+Filename: ruby-net-smtp_3.0.5-1_x86_64.ipk
+Size: 10571
+SHA256sum: 8a7091fc65e78dbd631399fd97081fcf7029c2349745a8ede7480e69fe07d30c
+Description:  This package contains the ruby SMTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/smtp.rb 
+ - /usr/lib/ruby/3.0/net/smtp/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-smtp-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-smtp-*.gemspec
+ 
+
+Package: ruby-nkf
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 128833
+Filename: ruby-nkf_3.0.5-1_x86_64.ipk
+Size: 127225
+SHA256sum: 2a4c4b3683a4190b400bed7df5f35f2d3432c6a122bf6d9965759e3f13dcfeef
+Description:  This package contains the ruby Network Kanji Filter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/kconv.rb 
+ - /usr/lib/ruby/3.0/*/nkf.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/nkf-*.gemspec
+ 
+
+Package: ruby-objspace
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 15921
+Filename: ruby-objspace_3.0.5-1_x86_64.ipk
+Size: 16694
+SHA256sum: afbc3ba6a6f065ccebe5600b3857db205a099938c5218d628863ec52f3ebac40
+Description:  This package contains the ruby Routines to interact with the garbage collection facility.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/objspace.rb 
+ - /usr/lib/ruby/3.0/*/objspace.so
+ 
+
+Package: ruby-observer
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3020
+Filename: ruby-observer_3.0.5-1_x86_64.ipk
+Size: 3881
+SHA256sum: eecc197f547986702b71c4292d4d7e80361837a6ee0af11c7df30e56b52da1eb
+Description:  This package contains the ruby Observer design pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/observer.rb 
+ - /usr/lib/ruby/3.0/observer/ 
+ - /usr/lib/ruby/gems/3.0/gems/observer-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/observer-*.gemspec
+ 
+
+Package: ruby-open-uri
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-net-ftp, ruby-net-http
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8521
+Filename: ruby-open-uri_3.0.5-1_x86_64.ipk
+Size: 9419
+SHA256sum: 56b0abff43feb9f2a89497607209b6638006c5a954ec9da1268673094adedecc
+Description:  This package contains the ruby Wrapper for Net::HTTP Net::HTTPS and Net::.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open-uri.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open-uri-*.gemspec
+ 
+
+Package: ruby-open3
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5519
+Filename: ruby-open3_3.0.5-1_x86_64.ipk
+Size: 6340
+SHA256sum: f6366a289388c602470c21ab7518de41f77a49d369cc8c110f58b4b839b01367
+Description:  This package contains the ruby popen with stderr.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open3.rb 
+ - /usr/lib/ruby/3.0/open3/ 
+ - /usr/lib/ruby/gems/3.0/gems/open3-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open3-*.gemspec
+ 
+
+Package: ruby-openssl
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-digest, ruby-enc, ruby-io-nonblock, ruby-ipaddr, ruby-stringio, libopenssl1.1
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 142125
+Filename: ruby-openssl_3.0.5-1_x86_64.ipk
+Size: 142579
+SHA256sum: 8571c92450c14f542a046e408d01b0e40af51dac4919d0ab46c9515c09a60b23
+Description:  This package contains the ruby SSL TLS and general purpose cryptography.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/openssl 
+ - /usr/lib/ruby/3.0/openssl.rb 
+ - /usr/lib/ruby/3.0/*/openssl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/openssl-*.gemspec
+ 
+
+Package: ruby-optparse
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-shellwords, ruby-time
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 19981
+Filename: ruby-optparse_3.0.5-1_x86_64.ipk
+Size: 20853
+SHA256sum: aab417d64b9287f11e304bf5171c130bd15de608ac6469259217d028ae54e305
+Description:  This package contains the ruby command-line option analysis.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/optparse.rb 
+ - /usr/lib/ruby/3.0/optionparser.rb 
+ - /usr/lib/ruby/3.0/optparse 
+ - /usr/lib/ruby/gems/3.0/specifications/default/optparse-*.gemspec
+ 
+
+Package: ruby-ostruct
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5004
+Filename: ruby-ostruct_3.0.5-1_x86_64.ipk
+Size: 5829
+SHA256sum: 107a5fcbdeacc30bef0fbfd4fa7fc3de71c90fced08dfaf35e0e4d565e5d5bcc
+Description:  This package contains the ruby build custom data structures.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ostruct.rb 
+ - /usr/lib/ruby/3.0/ostruct/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ostruct-*.gemspec
+ 
+
+Package: ruby-pathname
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-fileutils, ruby-find
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 14188
+Filename: ruby-pathname_3.0.5-1_x86_64.ipk
+Size: 15031
+SHA256sum: a9507c33e7f3fc76b130b1b3f5f7efa6a69fd3f060b2611ca92bdd7fecd70a9e
+Description:  This package contains the ruby Pathname lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pathname.rb 
+ - /usr/lib/ruby/3.0/*/pathname.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pathname-*.gemspec
+ 
+
+Package: ruby-powerassert
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-pp, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 10469
+Filename: ruby-powerassert_3.0.5-1_x86_64.ipk
+Size: 11388
+SHA256sum: 5093aa744532ff8a08e28de186fdae837d50815cf02b04b3f789764a1d737cc6
+Description:  This package contains the ruby Gem power_assert.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/power_assert-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/.travis.yml
+ 
+
+Package: ruby-pp
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-etc, ruby-prettyprint
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5388
+Filename: ruby-pp_3.0.5-1_x86_64.ipk
+Size: 6219
+SHA256sum: 0a4eac11da7aafd0f0650d96a0c28a5e44a18780b7e5d3cf44c9e1e42c92b657
+Description:  This package contains the ruby Pretty print objects.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pp-*.gemspec
+ 
+
+Package: ruby-prettyprint
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5454
+Filename: ruby-prettyprint_3.0.5-1_x86_64.ipk
+Size: 6272
+SHA256sum: 77c123d0ca5ad96b24486f5ff275573661f3941dd34d3906aeb715320b5c714b
+Description:  This package contains the ruby PrettyPrint library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prettyprint.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prettyprint-*.gemspec
+ 
+
+Package: ruby-prime
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-forwardable, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5604
+Filename: ruby-prime_3.0.5-1_x86_64.ipk
+Size: 6454
+SHA256sum: 8692c2508c6d11e5e9f209bab598473f89f32b8d6a1581f60feb5425fd3d72fb
+Description:  This package contains the ruby Prime numbers and factorization library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prime.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prime-*.gemspec
+ 
+
+Package: ruby-pstore
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5459
+Filename: ruby-pstore_3.0.5-1_x86_64.ipk
+Size: 6299
+SHA256sum: eff0db90d39aa07b157856d861604aa64f5879dbcb34a594c4c6e08b78591651
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pstore.rb 
+ - /usr/lib/ruby/3.0/pstore/ 
+ - /usr/lib/ruby/gems/3.0/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-forwardable, ruby-stringio, ruby-strscan, libyaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 33816
+Filename: ruby-psych_3.0.5-1_x86_64.ipk
+Size: 34754
+SHA256sum: a5511b2719001a9e0cfbd33ae806b6f38f6631f8b5afe194255f3ba6d599df5a
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-pty
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 4248
+Filename: ruby-pty_3.0.5-1_x86_64.ipk
+Size: 5044
+SHA256sum: e49fa006a680f626f59c87e29f28cf630ed8ebe56894958f35d106fb7043de05
+Description:  This package contains the ruby Creates and manages pseudo terminals.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/pty.so
+ 
+
+Package: ruby-racc
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-forwardable, ruby-optparse, ruby-rbconfig, ruby-stringio
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 38127
+Filename: ruby-racc_3.0.5-1_x86_64.ipk
+Size: 38916
+SHA256sum: 8fa51999264de36b311bc1d57ae29af24c70ced52a86dc09fec779f916923a3c
+Description:  This package contains the ruby LALR parser generator.
+ 
+
+Package: ruby-rake
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-fileutils, ruby-monitor, ruby-optparse, ruby-ostruct, ruby-set, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 42768
+Filename: ruby-rake_3.0.5-1_x86_64.ipk
+Size: 43699
+SHA256sum: c0ed0f78792c0d87fd585d4ffdd61edf11422988ea0290aa7245d4da9272f1eb
+Description:  This package contains the ruby Rake (make replacement).
+ 
+
+Package: ruby-rbconfig
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8951
+Filename: ruby-rbconfig_3.0.5-1_x86_64.ipk
+Size: 9760
+SHA256sum: 8969122a1753ec38b0feec5d399c798e8c5036dc1c4a5f1b3a529e382429396c
+Description:  This package contains the ruby RbConfig.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/rbconfig.rb 
+ - /usr/lib/ruby/3.0/*/rbconfig/*.so
+ 
+
+Package: ruby-rbs
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-gems, ruby-logger, ruby-racc, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 520091
+Filename: ruby-rbs_3.0.5-1_x86_64.ipk
+Size: 520825
+SHA256sum: b086b8c4d9430157c615bf1434125f9d9877766bffaccda12843aa5681fee16a
+Description:  This package contains the ruby RBS provides syntax and semantics definition for the Ruby Signature language.
+ 
+
+Package: ruby-rdoc
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-abbrev, ruby-did-you-mean, ruby-erb, ruby-racc, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 520786
+Filename: ruby-rdoc_3.0.5-1_x86_64.ipk
+Size: 486390
+SHA256sum: 7e2dcdfa4f793a2295152df080c83eb704aa93422658220997229e11f06c78cd
+Description:  This package contains the ruby RDoc produces HTML and command-line documentation for Ruby projects.
+ 
+
+Package: ruby-readline-ext
+Version: 3.0.5-1
+Depends: libc, ruby, libncurses6, libreadline8
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 11236
+Filename: ruby-readline-ext_3.0.5-1_x86_64.ipk
+Size: 12111
+SHA256sum: aaea1f831faa54414b9511a31fd26e361634d143dad9ff5251ffa99418e960e8
+Description:  This package contains the ruby support for native GNU readline.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/readline.so 
+ - /usr/lib/ruby/gems/3.0/gems/readline-ext-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-ext-*.gemspec
+ 
+
+Package: ruby-readline
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-reline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1090
+Filename: ruby-readline_3.0.5-1_x86_64.ipk
+Size: 1967
+SHA256sum: 7ca90da6f815a63aff13232d4bf688f3cbe8999cf11ad9c7f6b4dc652585b800
+Description:  This package contains the ruby loads readline-ext(native) or reline(ruby).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/readline.rb 
+ - /usr/lib/ruby/gems/3.0/gems/readline-0* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-0*.gemspec
+ 
+
+Package: ruby-reline
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-fiddle, ruby-forwardable, ruby-io-console, ruby-tempfile, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 41082
+Filename: ruby-reline_3.0.5-1_x86_64.ipk
+Size: 41991
+SHA256sum: 962e175c15cecfaa9bb1e418ff84b38789d658153add076991c9e96f73ef934d
+Description:  This package contains the ruby alternative to readline-ext in pure ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/reline.rb 
+ - /usr/lib/ruby/3.0/reline 
+ - /usr/lib/ruby/gems/3.0/gems/reline-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/reline-*.gemspec
+ 
+
+Package: ruby-resolv-replace
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-resolv
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1258
+Filename: ruby-resolv-replace_3.0.5-1_x86_64.ipk
+Size: 2138
+SHA256sum: 4d3087ece52f1b407cc3aab0f4cbda9ed630cb15424f20c284be23257f26327d
+Description:  This package contains the ruby Replace Socket DNS with Resolv.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv-replace.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-resolv
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-securerandom, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 17354
+Filename: ruby-resolv_3.0.5-1_x86_64.ipk
+Size: 18253
+SHA256sum: 0d203cf5daa1caf05c61a6a6ebff5cb9d4b50f78570a006fbf645e709d02737b
+Description:  This package contains the ruby DNS resolver library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-rexml
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc, ruby-forwardable, ruby-pp, ruby-set, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 78283
+Filename: ruby-rexml_3.0.5-1_x86_64.ipk
+Size: 79362
+SHA256sum: a7c8b268320695b2bb5460564ee71177d1782cd2b120bf2d9330fc49754bf664
+Description:  This package contains the ruby XML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rexml 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rexml-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/.travis.yml
+ 
+
+Package: ruby-rinda
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-drb, ruby-forwardable
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 9984
+Filename: ruby-rinda_3.0.5-1_x86_64.ipk
+Size: 10849
+SHA256sum: 776ce9c5a500ff178639f86cfd39488e0b86917562efb49fafe3498fea59ac75
+Description:  This package contains the ruby Linda paradigm implementation.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rinda 
+ - /usr/lib/ruby/gems/3.0/specifications/default/rinda-*.gemspec
+ 
+
+Package: ruby-ripper
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 76664
+Filename: ruby-ripper_3.0.5-1_x86_64.ipk
+Size: 77518
+SHA256sum: a2f67ff76f328c4fd4c648420fedbeafe95b10ad2cba11a1425dc9765e86aab6
+Description:  This package contains the ruby script parser.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ripper.rb 
+ - /usr/lib/ruby/3.0/ripper 
+ - /usr/lib/ruby/3.0/*/ripper.so
+ 
+
+Package: ruby-rss
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-english, ruby-nkf, ruby-open-uri, ruby-rexml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 48966
+Filename: ruby-rss_3.0.5-1_x86_64.ipk
+Size: 49953
+SHA256sum: d7e8fc1836bdde9f408502f7f1d6c2bae453a2e7f4f839c29390516702303d50
+Description:  This package contains the ruby RSS toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rss 
+ - /usr/lib/ruby/3.0/rss.rb 
+ - /usr/lib/ruby/gems/3.0/gems/rss-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rss-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.txt
+ 
+
+Package: ruby-securerandom
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3491
+Filename: ruby-securerandom_3.0.5-1_x86_64.ipk
+Size: 4350
+SHA256sum: abdd4b500ee2f7e5c6180ba0a6cb918d34d32be9a9df3a2e624e42c113b16488
+Description:  This package contains the ruby Secure random number generators.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/securerandom.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/securerandom-*.gemspec
+ 
+
+Package: ruby-set
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-tsort
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 6349
+Filename: ruby-set_3.0.5-1_x86_64.ipk
+Size: 7249
+SHA256sum: 6cfdd4a987f4637946d460373baef030b278bc9330add8b80ea3ee91001935e0
+Description:  This package contains the ruby Set collection.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/set.rb 
+ - /usr/lib/ruby/3.0/set/*.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/set-*.gemspec
+ 
+
+Package: ruby-shellwords
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3478
+Filename: ruby-shellwords_3.0.5-1_x86_64.ipk
+Size: 4340
+SHA256sum: bec7e4b8348ac07c7ef99a4c3372219dc5eb35d4aee38df6d43f75fb6929f61c
+Description:  This package contains the ruby Manipulate strings as Bourne Shell.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/shellwords.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/shellwords-*.gemspec
+ 
+
+Package: ruby-singleton
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2156
+Filename: ruby-singleton_3.0.5-1_x86_64.ipk
+Size: 3011
+SHA256sum: 59ed54bbdec0a52e18305553eb06302448c46289f5c7b1cd4e7fa0603f1fd389
+Description:  This package contains the ruby Singleton pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/singleton.rb 
+ - /usr/lib/ruby/3.0/singleton/ 
+ - /usr/lib/ruby/gems/3.0/gems/singleton-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/singleton-*.gemspec
+ 
+
+Package: ruby-socket
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-io-wait
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 75624
+Filename: ruby-socket_3.0.5-1_x86_64.ipk
+Size: 76367
+SHA256sum: eb9a57e121669dddbf5fd011168e7f29332a741f174bd0c4cdeeca0fed4221d5
+Description:  This package contains the ruby socket support.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/socket.rb 
+ - /usr/lib/ruby/3.0/*/socket.so
+ 
+
+Package: ruby-stdlib
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-abbrev, ruby-base64, ruby-benchmark, ruby-bigdecimal, ruby-bundler, ruby-cgi, ruby-continuation, ruby-coverage, ruby-csv, ruby-date, ruby-dbm, ruby-debug, ruby-delegate, ruby-did-you-mean, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-english, ruby-erb, ruby-etc, ruby-expect, ruby-fcntl, ruby-fiber, ruby-fiddle, ruby-fileutils, ruby-find, ruby-forwardable, ruby-gdbm, ruby-gems, ruby-getoptlong, ruby-io-console, ruby-io-nonblock, ruby-io-wait, ruby-ipaddr, ruby-irb, ruby-json, ruby-logger, ruby-matrix, ruby-minitest, ruby-mkmf, ruby-monitor, ruby-mutex_m, ruby-net-ftp, ruby-net-http, ruby-net-imap, ruby-net-pop, ruby-net-protocol, ruby-net-smtp, ruby-nkf, ruby-objspace, ruby-observer, ruby-open-uri, ruby-open3, ruby-openssl, ruby-optparse, ruby-ostruct, ruby-pathname, ruby-powerassert, ruby-pp, ruby-prettyprint, ruby-prime, ruby-pstore, ruby-psych, ruby-pty, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rbs, ruby-rdoc, ruby-readline-ext, ruby-readline, ruby-reline, ruby-resolv, ruby-resolv-replace, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-securerandom, ruby-set, ruby-shellwords, ruby-singleton, ruby-socket, ruby-stringio, ruby-strscan, ruby-syslog, ruby-tempfile, ruby-testunit, ruby-time, ruby-timeout, ruby-tmpdir, ruby-tracer, ruby-tsort, ruby-typeprof, ruby-unicodenormalize, ruby-un, ruby-uri, ruby-weakref, ruby-yaml, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 96
+Filename: ruby-stdlib_3.0.5-1_x86_64.ipk
+Size: 1426
+SHA256sum: 4b2c86921a9c7fa4263575361e0fe64f6d5e845faa34d6707a52f441b864a99c
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-stringio
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 12040
+Filename: ruby-stringio_3.0.5-1_x86_64.ipk
+Size: 12900
+SHA256sum: fb3dbe1c5d72c72099be7d3f44f5ae9aefa2a5bd02933804a224618d153d0acc
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/stringio.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8913
+Filename: ruby-strscan_3.0.5-1_x86_64.ipk
+Size: 9776
+SHA256sum: 217f3f64f664407b5e8c66d95f9c842d2019c9b5270e4512921cab460d13c79a
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/strscan.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-syslog
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-logger
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 7215
+Filename: ruby-syslog_3.0.5-1_x86_64.ipk
+Size: 8121
+SHA256sum: 5ad8b7851ddc2edfe6a75601b4eefee3e2ee1b4ee5695ad8ea56b4bd648fbb56
+Description:  This package contains the ruby Syslog Lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/syslog.so 
+ - /usr/lib/ruby/3.0/syslog/logger.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/syslog-*.gemspec
+ 
+
+Package: ruby-tempfile
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-delegate, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 5059
+Filename: ruby-tempfile_3.0.5-1_x86_64.ipk
+Size: 5927
+SHA256sum: ae20d9ecb5509acfc400068cdb3ca2facd3c3cd34a66c6309aca256fc105506b
+Description:  This package contains the ruby Manages temporary files.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tempfile.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tempfile-*.gemspec
+ 
+
+Package: ruby-testunit
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-csv, ruby-erb, ruby-powerassert, ruby-rexml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 70748
+Filename: ruby-testunit_3.0.5-1_x86_64.ipk
+Size: 71765
+SHA256sum: 86b3a5b54b7ff4a5f8cfbd19331f8f3dc57b542ccff3050022fc3a69ef5c8266
+Description:  This package contains the ruby Gem test-unit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/test-unit-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/*.md
+ 
+
+Package: ruby-time
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-date
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 8184
+Filename: ruby-time_3.0.5-1_x86_64.ipk
+Size: 9087
+SHA256sum: 57d4b7c689a0d4282b12e74e92b610f12c34864e9ac9353392f938b4cc68334b
+Description:  This package contains the ruby Extends Time with additional methods for parsing and converting Times.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/time.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/time-*.gemspec
+ 
+
+Package: ruby-timeout
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2564
+Filename: ruby-timeout_3.0.5-1_x86_64.ipk
+Size: 3424
+SHA256sum: 6f71db1c8502631963ce0f5094546910f94ecc02757fe521119d5e438fccbbfb
+Description:  This package contains the ruby Auto-terminate potentially long-running operations.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/timeout.rb 
+ - /usr/lib/ruby/3.0/timeout/ 
+ - /usr/lib/ruby/gems/3.0/gems/timeout-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/timeout-*.gemspec
+ 
+
+Package: ruby-tmpdir
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-fileutils
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2476
+Filename: ruby-tmpdir_3.0.5-1_x86_64.ipk
+Size: 3314
+SHA256sum: d1b9db21485c0fde867ec78fa741ab2407d5250af9b20d03f17925c2db646bd7
+Description:  This package contains the ruby Get temp dir path.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tmpdir.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tmpdir-*.gemspec
+ 
+
+Package: ruby-tracer
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 2947
+Filename: ruby-tracer_3.0.5-1_x86_64.ipk
+Size: 3814
+SHA256sum: 3871a892c94b26a6f4ba2070baa7e76dd714b7e608308862cec3be63c65c83e6
+Description:  This package contains the ruby Outputs a source level execution trace of a Ruby program.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tracer.rb 
+ - /usr/lib/ruby/3.0/tracer/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tracer-*.gemspec
+ 
+
+Package: ruby-tsort
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3664
+Filename: ruby-tsort_3.0.5-1_x86_64.ipk
+Size: 4510
+SHA256sum: 2c64daab50fc48deae54df59d07802f9158798c0e43f7b6365448f9e0a404bd7
+Description:  This package contains the ruby Topological sorting using Tarjan s algorithm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tsort.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tsort-*.gemspec
+ 
+
+Package: ruby-typeprof
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-coverage, ruby-rbs
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 85665
+Filename: ruby-typeprof_3.0.5-1_x86_64.ipk
+Size: 86331
+SHA256sum: a5604acdd31c256196ee43436d73daa3f5a70e112f6b5b3faae79cb8d5c816b4
+Description:  This package contains the ruby A type analysis tool for Ruby code based on abstract interpretation.
+ 
+
+Package: ruby-un
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-mkmf, ruby-optparse
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 3945
+Filename: ruby-un_3.0.5-1_x86_64.ipk
+Size: 4831
+SHA256sum: d584294d79a8cdd5eb4bcc5464c470e8b8945b5e649e3efc3170df1958d999d7
+Description:  This package contains the ruby Utilities to replace common UNIX commands in Makefiles.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/un.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/un-*.gemspec
+ 
+
+Package: ruby-unicodenormalize
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc, ruby-enc-extra
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 44925
+Filename: ruby-unicodenormalize_3.0.5-1_x86_64.ipk
+Size: 43280
+SHA256sum: 2ba59e66f95e2752dee6e06ba78bffa7d5d490f0a07fb0ae17ccdd460f5bd25c
+Description:  This package contains the ruby String additions for Unicode normalization.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/unicode_normalize
+ 
+
+Package: ruby-uri
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 28359
+Filename: ruby-uri_3.0.5-1_x86_64.ipk
+Size: 29254
+SHA256sum: 42e46d87553a541901552367251f0e514807b1aa090b7c9ac43da340be89bfe0
+Description:  This package contains the ruby library to handle URI.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/uri.rb 
+ - /usr/lib/ruby/3.0/uri 
+ - /usr/lib/ruby/gems/3.0/gems/uri-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/uri-*.gemspec
+ 
+
+Package: ruby-weakref
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-delegate
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1415
+Filename: ruby-weakref_3.0.5-1_x86_64.ipk
+Size: 2297
+SHA256sum: d1351f8def4cbfbbdcd1a0419c0b8da28225795a4af878087d32d4fe92b14964
+Description:  This package contains the ruby Weak reference to be garbage collected.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/weakref.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/weakref-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 3.0.5-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 4350
+Filename: ruby-yaml_3.0.5-1_x86_64.ipk
+Size: 5195
+SHA256sum: a5ddf3b6ca1492b7165da3d09642d6baa4439610ed995fcd7a6e1981a9746cd7
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/yaml 
+ - /usr/lib/ruby/3.0/yaml.rb 
+ - /usr/lib/ruby/gems/3.0/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby-zlib
+Version: 3.0.5-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 23112
+Filename: ruby-zlib_3.0.5-1_x86_64.ipk
+Size: 23942
+SHA256sum: bf0f4c09186a637bb62d393c6662d63225200b56e59bbbbe930a8f5333d839e3
+Description:  This package contains the ruby compression/decompression library interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/zlib.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/zlib-*.gemspec
+ 
+
+Package: ruby
+Version: 3.0.5-1
+Depends: libc, libruby3.0
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: x86_64
+Installed-Size: 1632
+Filename: ruby_3.0.5-1_x86_64.ipk
+Size: 2527
+SHA256sum: 6013e519ec5ca0e8db9e75ce769986256b3f342b7fe40df444bf66669d2ebf17
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+

@@ -1,0 +1,73 @@
+Package: libh2o-evloop
+Version: 2.2.6-13
+Depends: libc, libopenssl1.1, zlib, libyaml
+Source: feeds/packages/libs/h2o
+SourceName: libh2o-evloop
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1623557101
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 166254
+Filename: libh2o-evloop_2.2.6-13_x86_64.ipk
+Size: 167022
+SHA256sum: f8409467977822933e9eb331e9930ed99d72d9ef8083bb5a6104df6ba2a326bf
+Description:  H2O Library compiled with its own event loop
+
+Package: libh2o
+Version: 2.2.6-13
+Depends: libc, libuv1, libopenssl1.1, zlib, libyaml
+Source: feeds/packages/libs/h2o
+SourceName: libh2o
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1623557101
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 163946
+Filename: libh2o_2.2.6-13_x86_64.ipk
+Size: 164658
+SHA256sum: c15cd81521fea4c2510da1e6fd5cb686f4c60db16ecaf7d675444f607c0f0072
+Description:  H2O Library compiled with libuv
+
+Package: libuv1
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1626067233
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: x86_64
+Installed-Size: 62578
+Filename: libuv1_1.41.1-1_x86_64.ipk
+Size: 63502
+SHA256sum: db9119e53d9c7ea51bc6dbbca80c6fdac8c58ce0f32f6aecb460eee3109d9872
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1593132224
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: x86_64
+Installed-Size: 40957
+Filename: libyaml_0.2.5-1_x86_64.ipk
+Size: 41818
+SHA256sum: bd688c25499b8dadf828f640515c47af32b82022e15433860e5dd280e8734580
+Description:  Fast YAML 1.1 parser and emitter library
+

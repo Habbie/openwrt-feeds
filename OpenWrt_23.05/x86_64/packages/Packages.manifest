@@ -1,0 +1,73 @@
+Package: libh2o-evloop
+Version: 2.2.6-13
+Depends: libc, libopenssl3, zlib, libyaml
+Source: feeds/packages/libs/h2o
+SourceName: libh2o-evloop
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682110018
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 165647
+Filename: libh2o-evloop_2.2.6-13_x86_64.ipk
+Size: 166402
+SHA256sum: 75cf0522305f7d9e3099bd0fada257dd00fe9e354bdd58d530e0c7cfdfa78eec
+Description:  H2O Library compiled with its own event loop
+
+Package: libh2o
+Version: 2.2.6-13
+Depends: libc, libuv1, libopenssl3, zlib, libyaml
+Source: feeds/packages/libs/h2o
+SourceName: libh2o
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682110018
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: x86_64
+Installed-Size: 163724
+Filename: libh2o_2.2.6-13_x86_64.ipk
+Size: 164448
+SHA256sum: f985d3c7e8514f527ad24fe902de641607de800e0e648906da8379d55c47a221
+Description:  H2O Library compiled with libuv
+
+Package: libuv1
+Version: 1.44.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682110018
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: x86_64
+Installed-Size: 63355
+Filename: libuv1_1.44.1-1_x86_64.ipk
+Size: 64328
+SHA256sum: 1556b47914063f4d32976f7cd963c30448c43ec89716bcbc7f3392d463c179cf
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1682444897
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: x86_64
+Installed-Size: 42060
+Filename: libyaml_0.2.5-1_x86_64.ipk
+Size: 42913
+SHA256sum: 6e606d0c12bd0c89271bdb490e2dfc628deee6cd5a276c4a2837b0a55a83814d
+Description:  Fast YAML 1.1 parser and emitter library
+
