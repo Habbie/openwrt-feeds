@@ -7,7 +7,7 @@ Architecture: x86_64
 Installed-Size: 166256
 Filename: libh2o-evloop_2.2.6-14_x86_64.ipk
 Size: 167031
-SHA256sum: 6caec7d38f4f3a604d93fe48f74f8d8cae9564ddd2c548943709326329931fe6
+SHA256sum: f7f72a8ba53bbc2e371ffd91762b5ccfa2aff715bd0c87b46ed5a0d3b43da9d9
 Description:  H2O Library compiled with its own event loop
 
 Package: libh2o
@@ -18,7 +18,7 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 163949
 Filename: libh2o_2.2.6-14_x86_64.ipk
-Size: 164666
-SHA256sum: 9ff46232803ae71c7f308b216f159894181c76f697e7e59b158a9c8926a1b697
+Size: 164689
+SHA256sum: 68c6a3d45704f03dff32a4d3f0ce5a2274f558cfa9c522e2cfda2588aa155c99
 Description:  H2O Library compiled with libuv
 
