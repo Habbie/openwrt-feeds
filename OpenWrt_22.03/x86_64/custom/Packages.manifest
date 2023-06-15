@@ -6,14 +6,14 @@ SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1686841133
+SourceDateEpoch: 1686850462
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: x86_64
-Installed-Size: 2234174
+Installed-Size: 2234169
 Filename: dnsdist_1.8.0-pdns1_x86_64.ipk
-Size: 2229345
-SHA256sum: dbb7083f84b62531fe96668945423531f5739a9e36c5d8ed781814d0e9e45dbe
+Size: 2229294
+SHA256sum: b7faead6fc900a2a18fbf4a893c2f0231046c0213974c7d1f5f6395186180d0f
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
