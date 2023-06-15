@@ -6,13 +6,13 @@ SourceName: libh2o-evloop
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1686828649
+SourceDateEpoch: 1686829280
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: x86_64
-Installed-Size: 166256
+Installed-Size: 166255
 Filename: libh2o-evloop_2.2.6-14_x86_64.ipk
-Size: 167031
-SHA256sum: f7f72a8ba53bbc2e371ffd91762b5ccfa2aff715bd0c87b46ed5a0d3b43da9d9
+Size: 167020
+SHA256sum: d52b95a504b64a75e98432c8b6fac8322c6cc898d1b2d5b0ce682b88a2681f0f
 Description:  H2O Library compiled with its own event loop
 
 Package: libh2o
@@ -23,12 +23,12 @@ SourceName: libh2o
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1686828649
+SourceDateEpoch: 1686829280
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: x86_64
-Installed-Size: 163949
+Installed-Size: 163947
 Filename: libh2o_2.2.6-14_x86_64.ipk
-Size: 164689
-SHA256sum: 68c6a3d45704f03dff32a4d3f0ce5a2274f558cfa9c522e2cfda2588aa155c99
+Size: 164678
+SHA256sum: 83db698be3e6c509f7efb32e473c54b989a19d5f784d57499f0d4ef35cb430de
 Description:  H2O Library compiled with libuv
 

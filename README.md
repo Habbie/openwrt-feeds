@@ -1,4 +1,4 @@
-OpenWrt repository for dnsdist for OpenWrt
+OpenWrt repository for dnsdist
 ========
 
 Download the [signing key](public.key), add it to your device with `opkg-key add public.key`, and then select the version that matches your device (check `/etc/openwrt_release` or the LuCI status page):

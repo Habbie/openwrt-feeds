@@ -1,4 +1,4 @@
-OpenWrt 23.05 repository for dnsdist for OpenWrt
+OpenWrt 23.05 repository for dnsdist
 ========
 
 Select the architecture that matches your device (use `opkg print-architecture` to get the architecture):
