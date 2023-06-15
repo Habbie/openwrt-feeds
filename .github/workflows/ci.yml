@@ -113,7 +113,7 @@ jobs:
       - name: Generate READMEs
         run: |
           source venv/bin/activate
-          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package=${{ env.owrt-package }}
+          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package="dnsdist for OpenWrt"
       - name: Clean up virtualenv
         run: rm -rf venv
       - name: Configure git
