@@ -11,7 +11,9 @@ on:
 env:
   git-author-name: Peter van Dijk
   git-author-email: peter.van.dijk@powerdns.com
-  pkgs: h2o  # TODO: matrix this
+  owrt-package: dnsdist
+  repo-name: pdns
+  repo-owner: PowerDNS
 
 jobs:
   matrix-setup:
@@ -113,7 +115,7 @@ jobs:
       - name: Generate READMEs
         run: |
           source venv/bin/activate
-          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package="dnsdist"
+          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package=${{ env.owrt-package }}
       - name: Clean up virtualenv
         run: rm -rf venv
       - name: Configure git
