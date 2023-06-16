@@ -1,3 +1,5 @@
-- fix URLs (they're wrong now and they'll be even more wrong when we move to repo.powerdns.com)
 - make sure to include the public key
 - logo
+- add concurrency lock to at least the gh-pages git pull/push
+- add dispatchable job to shrink gh-pages history (which contains full binary packages)
+
