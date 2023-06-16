@@ -93,6 +93,7 @@ jobs:
   deploy:
     name: Deploy Packages
     runs-on: ubuntu-latest
+    if: success() || failure()  # this tolerates partial failure of build-packages, such as a few targets failing. It feels dangerous though.
     needs: build-packages
     permissions:
       contents: write
