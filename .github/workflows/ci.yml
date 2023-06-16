@@ -130,8 +130,8 @@ jobs:
           git push
       - name: Change URL to repo.powerdns.com
         run: |
-          echo baseurl: https://repo.powerdns.com >> _config.yml
-          echo url: /openwrt >> _config.yml
+          echo url: https://repo.powerdns.com >> _config.yml
+          echo baseurl: /openwrt >> _config.yml
       - name: Build for repo.powerdns.com
         uses: actions/jekyll-build-pages@v1
         with:
