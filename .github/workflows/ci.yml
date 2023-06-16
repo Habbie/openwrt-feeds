@@ -116,7 +116,7 @@ jobs:
       - name: Generate READMEs
         run: |
           source venv/bin/activate
-          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package=${{ env.owrt-package }} repo_url=${{ env.repo-url }}
+          ./generate.py repo_owner=${{ env.repo-owner }} repo_name=${{ env.repo-name }} owrt_package=${{ env.owrt-package }} repo_url=${{ env.repo-url }} run_number=${GITHUB_RUN_NUMBER}
       - name: Clean up virtualenv
         run: rm -rf venv
       - name: Configure git
