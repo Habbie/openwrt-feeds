@@ -1,0 +1,20 @@
+Package: dnsdist
+Version: 1.8.0-pdns1
+Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1686938891
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: mipsel_24kc_24kf
+Installed-Size: 1674551
+Filename: dnsdist_1.8.0-pdns1_mipsel_24kc_24kf.ipk
+Size: 1666884
+SHA256sum: 89fec96c11b62f27ed0e3efeca06737bb2271a98cdd4797adb1bb9985b99a2f2
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+

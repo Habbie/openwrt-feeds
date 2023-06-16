@@ -1,0 +1,15 @@
+Package: dnsdist
+Version: 1.8.0-pdns1
+Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: arm_fa526
+Installed-Size: 2101324
+Filename: dnsdist_1.8.0-pdns1_arm_fa526.ipk
+Size: 2090665
+SHA256sum: 33d5a0a5a73133d938dff03cc3292c181e78802ce3d11e95bc6409de42c6f71f
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
