@@ -14,8 +14,7 @@ env:
   owrt-package: dnsdist   # actually only used for page templating
   repo-name: pdns
   repo-owner: PowerDNS
-  #pkgs: dnsdist  # for building
-  pkgs: ncdu
+  pkgs: dnsdist  # for building
 
 jobs:
   matrix-setup:
