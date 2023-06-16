@@ -41,8 +41,8 @@ jobs:
     steps:
       - name: install host build deps
         run: |
-          apt-get upgrade
-          apt-get -y install libc6-dev
+          sudo apt-get upgrade
+          sudo apt-get -y install libc6-dev
       - uses: actions/checkout@v3
       - name: Get the SDK
         run: |
