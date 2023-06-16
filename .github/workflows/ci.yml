@@ -16,7 +16,7 @@ env:
   repo-owner: PowerDNS
   #pkgs: dnsdist  # for building
   pkgs: ncdu
-  repo-url: https://repo.powerdns.com/openwrt/
+  repo-url: https://repo.powerdns.com/openwrt
 
 jobs:
   matrix-setup:
