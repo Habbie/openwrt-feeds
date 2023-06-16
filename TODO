@@ -1,4 +1,3 @@
-- rename dir from custom/ to.. dnsdist/? pdns/? nothing?
 - fix URLs (they're wrong now and they'll be even more wrong when we move to repo.powerdns.com)
 - make sure to include the public key
 - logo

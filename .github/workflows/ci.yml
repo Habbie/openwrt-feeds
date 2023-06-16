@@ -62,15 +62,15 @@ jobs:
       - name: Update packages feed
         run: |
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
-          ( echo "src-link custom ${GITHUB_WORKSPACE}/package" ; cat feeds.conf.default ) > feeds.conf
+          ( echo "src-link dnsdist ${GITHUB_WORKSPACE}/package" ; cat feeds.conf.default ) > feeds.conf
           scripts/feeds update packages >/dev/null
           scripts/feeds update base >/dev/null
-          scripts/feeds update custom >/dev/null
+          scripts/feeds update dnsdist >/dev/null
       - name: Build package
         run: |
           set -x
           cd "sdk/${MATRIX_SDK_FILENAME%.tar.xz}"
-          scripts/feeds install -f dnsdist # FIXME
+          for pkg in ${{ env.pkgs }} ; do scripts/feeds install -f $pkg ; done
           cat ${GITHUB_WORKSPACE}/default-dot-config >> .config
           make defconfig
           grep -i openssl_engine .config
@@ -80,7 +80,7 @@ jobs:
         run: |
           mkdir -p OpenWrt_${{ matrix.major }}/${{ matrix.arch }}
           find sdk/"${MATRIX_SDK_FILENAME%.tar.xz}"/bin/packages/${{ matrix.arch }} -ls
-          rsync -av sdk/"${MATRIX_SDK_FILENAME%.tar.xz}"/bin/packages/${{ matrix.arch }}/custom OpenWrt_${{ matrix.major }}/${{ matrix.arch }}
+          rsync -av sdk/"${MATRIX_SDK_FILENAME%.tar.xz}"/bin/packages/${{ matrix.arch }}/dnsdist OpenWrt_${{ matrix.major }}/${{ matrix.arch }}
           tar cf OpenWrt_${{ matrix.major }}-${{ matrix.arch }}.tar OpenWrt_${{ matrix.major }}
       - uses: actions/upload-artifact@v3
         with:
