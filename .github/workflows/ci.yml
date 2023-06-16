@@ -16,7 +16,6 @@ env:
   repo-owner: PowerDNS
   #pkgs: dnsdist  # for building
   pkgs: ncdu
-  repo-url: https://repo.powerdns.com/openwrt
 
 jobs:
   matrix-setup:
@@ -131,7 +130,8 @@ jobs:
           git push
       - name: Change URL to repo.powerdns.com
         run: |
-          echo baseurl: ${{ env.repo-url }} >> _config.yml
+          echo baseurl: https://repo.powerdns.com >> _config.yml
+          echo url: /openwrt >> _config.yml
       - name: Build for repo.powerdns.com
         uses: actions/jekyll-build-pages@v1
         with:
