@@ -128,3 +128,11 @@ jobs:
           git add -A
           git commit -m "Deploy GH Actions build ${GITHUB_RUN_NUMBER} to gh-pages"
           git push
+
+  deploy-repo:
+    name: Deploy Packages to repo.powerdns.com
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - used: actions/download-artifact@v3
+      - run: find . -ls
