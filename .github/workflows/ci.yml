@@ -42,7 +42,7 @@ jobs:
       - name: install host build deps
         run: |
           sudo apt-get update
-          sudo apt-get -y install libc6-dev
+          sudo apt-get -y install libc6-dev libc6-i386-dev
       - uses: actions/checkout@v3
       - name: Get the SDK
         run: |
