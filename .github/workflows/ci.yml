@@ -74,7 +74,6 @@ jobs:
           for pkg in ${{ env.pkgs }} ; do scripts/feeds install -f $pkg ; done
           cat ${GITHUB_WORKSPACE}/default-dot-config >> .config
           make defconfig
-          grep -i openssl_engine .config
           for pkg in ${{ env.pkgs }} ; do make -j$(nproc) V=s package/$pkg/compile ; done
           make -j1 V=s package/index
       - name: Prepare artifact
