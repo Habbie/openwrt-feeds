@@ -123,11 +123,11 @@ jobs:
         run: |
           git config user.name "${{ env.git-author-name }}"
           git config user.email "${{ env.git-author-email }}"
-      - name: Commit
-        run: |
-          git add -A
-          git commit -m "Deploy GH Actions build ${GITHUB_RUN_NUMBER} to gh-pages"
-          git push
+      # - name: Commit
+      #   run: |
+      #     git add -A
+      #     git commit -m "Deploy GH Actions build ${GITHUB_RUN_NUMBER} to gh-pages"
+      #     git push
       - name: Build for repo.powerdns.com
         uses: actions/jekyll-build-pages@v1
         with:
