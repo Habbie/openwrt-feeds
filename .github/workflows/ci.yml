@@ -128,6 +128,18 @@ jobs:
           git add -A
           git commit -m "Deploy GH Actions build ${GITHUB_RUN_NUMBER} to gh-pages"
           git push
+      - name: Build for repo.powerdns.com
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+          future: false
+      - name: Prepare artifact for repo.powerdns.com
+        uses: actions/upload-artifact@v3
+        with:
+          path: ./_site
+          name: site-for-repo
+          retention-days: 1
 
   deploy-repo:
     name: Deploy Packages to repo.powerdns.com
@@ -135,4 +147,6 @@ jobs:
     needs: deploy
     steps:
       - uses: actions/download-artifact@v3
+        with:
+          name: site-for-repo
       - run: find . -ls
