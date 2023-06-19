@@ -14,6 +14,7 @@ env:
   owrt-package: dnsdist   # actually only used for page templating
   repo-name: pdns
   repo-owner: PowerDNS
+  repo-url: https://repo.powerdns.com/openwrt
   pkgs: dnsdist  # for building
 
 jobs:
