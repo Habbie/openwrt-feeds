@@ -5,10 +5,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mipsel_24kc
-Installed-Size: 1673364
+Installed-Size: 1673286
 Filename: dnsdist_1.8.0-pdns1_mipsel_24kc.ipk
-Size: 1665489
-SHA256sum: 3675772a919aa3ff5b0900a4a7f6668bc961f9f91be19750c406e2165e50774a
+Size: 1665521
+SHA256sum: 22630759c06d91e6008dd7941bcf5e84e8ee49c50b264c00fde51dafbcf97696
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

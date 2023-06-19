@@ -5,10 +5,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2164228
+Installed-Size: 2164229
 Filename: dnsdist_1.8.0-pdns1_arm_cortex-a9_neon.ipk
-Size: 2152663
-SHA256sum: d98f18576f4517121bc52f2749d44f2143d2185b0e4eba56049f2916771940c8
+Size: 2152733
+SHA256sum: 07ac56b9c9106fd9b154cdbd911db88a763f12e3162d9c517897035125df3d27
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

@@ -5,10 +5,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: i386_pentium-mmx
-Installed-Size: 1904172
+Installed-Size: 1904173
 Filename: dnsdist_1.8.0-pdns1_i386_pentium-mmx.ipk
-Size: 1898149
-SHA256sum: a5998999e6938720e7cfac5401a5425ff12f3e01c569256710f7c07fb4a12a32
+Size: 1898206
+SHA256sum: e23d379aa08b34d6a91761fe7093070529d98982c2b4cc735c755964f8c78231
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

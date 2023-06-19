@@ -7,8 +7,8 @@ CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips_mips32
 Installed-Size: 1903548
 Filename: dnsdist_1.8.0-pdns1_mips_mips32.ipk
-Size: 1890872
-SHA256sum: 6fa13db59ed5ee6f9d956866167614c61e87ac3ec8b1c4bf678fa02e1c6bb480
+Size: 1890941
+SHA256sum: 3328b8a0cc78f41dd674af218c6d4a4595e6ab309bfc27d76b76f27939ad5e20
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

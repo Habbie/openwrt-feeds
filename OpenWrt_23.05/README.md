@@ -21,6 +21,7 @@ Select the architecture that matches your device (use `opkg print-architecture` 
 * [arm_xscale](arm_xscale/)
 * [i386_pentium-mmx](i386_pentium-mmx/)
 * [i386_pentium4](i386_pentium4/)
+* [mips64_octeonplus](mips64_octeonplus/)
 * [mips_24kc](mips_24kc/)
 * [mips_4kec](mips_4kec/)
 * [mips_mips32](mips_mips32/)

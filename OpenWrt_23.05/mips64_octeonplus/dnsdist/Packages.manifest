@@ -1,19 +1,19 @@
 Package: dnsdist
 Version: 1.8.0-pdns1
-Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl3, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1686938891
+SourceDateEpoch: 1687167411
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
-Architecture: arm_cortex-a9_neon
-Installed-Size: 2072815
-Filename: dnsdist_1.8.0-pdns1_arm_cortex-a9_neon.ipk
-Size: 2062529
-SHA256sum: 45369274105a636c652a25a9c51f36c8bb7bb851c8108d8201787145e4aa8339
+Architecture: mips64_octeonplus
+Installed-Size: 1799602
+Filename: dnsdist_1.8.0-pdns1_mips64_octeonplus.ipk
+Size: 1788803
+SHA256sum: 603a0a6d705bc546f0d4ff02343cf271ecbdd13701fd1fe945728adce4b3a145
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
