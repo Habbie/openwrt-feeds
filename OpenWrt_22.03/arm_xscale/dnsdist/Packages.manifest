@@ -1,19 +1,42 @@
+Package: dnsdist-full
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist-full
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1687262990
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: arm_xscale
+Installed-Size: 1793005
+Filename: dnsdist-full_1.8.0-pdns2_arm_xscale.ipk
+Size: 1784997
+SHA256sum: 342c0e34fc9c38e8af31b05152a8529aceffc8b90c631112656c21dd328df944
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
 Package: dnsdist
-Version: 1.8.0-pdns1
-Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1687167411
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1687262990
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_xscale
-Installed-Size: 2099885
-Filename: dnsdist_1.8.0-pdns1_arm_xscale.ipk
-Size: 2088944
-SHA256sum: bb7b9e1c2a2974833d8c1bc94da1b33df62a87231af5876c074e6158f1e1d665
+Installed-Size: 770236
+Filename: dnsdist_1.8.0-pdns2_arm_xscale.ipk
+Size: 769138
+SHA256sum: 6773804ade89085bf9c50b53dcf1e464b711bc4d169758bd8ed425a4ed91f633
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

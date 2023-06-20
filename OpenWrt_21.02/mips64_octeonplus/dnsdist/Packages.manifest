@@ -1,19 +1,42 @@
+Package: dnsdist-full
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist-full
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1687262990
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: mips64_octeonplus
+Installed-Size: 1509275
+Filename: dnsdist-full_1.8.0-pdns2_mips64_octeonplus.ipk
+Size: 1498897
+SHA256sum: bbcd6523500fde7a9a50759af7bb9639f73240f4db077bad4df50676527e83c2
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
 Package: dnsdist
-Version: 1.8.0-pdns1
-Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1687167411
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1687262990
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: mips64_octeonplus
-Installed-Size: 1764068
-Filename: dnsdist_1.8.0-pdns1_mips64_octeonplus.ipk
-Size: 1753885
-SHA256sum: 1ed3d72942dde384c835950f7086cc8ffe160610a5c2fcfe94850224c77262df
+Installed-Size: 837611
+Filename: dnsdist_1.8.0-pdns2_mips64_octeonplus.ipk
+Size: 835779
+SHA256sum: 43e17300928130b74137d2f1693cbc1b007b225d4ad9210e78fc409d709a5683
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

@@ -1,14 +1,30 @@
-Package: dnsdist
-Version: 1.8.0-pdns1
-Depends: libc, libh2o-evloop, libnghttp2-14, libopenssl1.1, libnetsnmp, re2-6, libfstrm, libsodium, libatomic1, libcap, libedit, libstdcpp6, lmdb, luajit, tinycdb1
+Package: dnsdist-full
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_mpcore
-Installed-Size: 2085785
-Filename: dnsdist_1.8.0-pdns1_arm_mpcore.ipk
-Size: 2075237
-SHA256sum: c1d6012a1f2350ce89ea25864929dfc16cca4b521b9f97ac62e39b97cb977f97
+Installed-Size: 1777937
+Filename: dnsdist-full_1.8.0-pdns2_arm_mpcore.ipk
+Size: 1771658
+SHA256sum: 72483d51efe30ad8cc09fe9a949aee29f6fd2dd1a9dad0d1d7acabb07bf6a818
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
+Package: dnsdist
+Version: 1.8.0-pdns2
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: arm_mpcore
+Installed-Size: 762452
+Filename: dnsdist_1.8.0-pdns2_arm_mpcore.ipk
+Size: 761717
+SHA256sum: 931c28c5bc4e01ca1d3ef6623a51925fbbff2a2aff1953f7c7552a36135e4b44
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
