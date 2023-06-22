@@ -76,7 +76,7 @@ define Package/dnsdist/install/Default
 	$(INSTALL_DIR) $(1)/usr/share/lua/dnsdist
 	$(INSTALL_DIR) $(1)/usr/share/dnsdist
 	$(CP) ./files/common.lua $(1)/usr/share/lua/dnsdist/
-	$(CP) ./files/configuration.lua $(1)/usr/share/lua/dnsist/
+	$(CP) ./files/configuration.lua $(1)/usr/share/lua/dnsdist/
 	$(CP) ./files/local-domains.lua $(1)/usr/share/lua/dnsdist/
 	$(CP) ./files/os.lua $(1)/usr/share/lua/dnsdist/
 	$(CP) ./files/dnsdist-odhcpd.lua $(1)/usr/share/lua/dnsdist/
