@@ -6,5 +6,5 @@ To install the {{ owrt_package }} package, run
 ```
 echo "src/gz {{ repo_name }} {{ repo_url }}/{{ version_dir }}/{{ arch }}/dnsdist" >> /etc/opkg/customfeeds.conf
 opkg update
-opkg install {{ owrt_package }}
+opkg install {{ owrt_package }} # or dnsdist-full if you need all the features
 ```
