@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1768691
-Filename: dnsdist-full_1.8.0-pdns2_arm_cortex-a9_neon.ipk
-Size: 1761752
-SHA256sum: 3fd1a8942f9f846f9d362af1c8f9fa2bf84ccabba492914a4862169ea82d781f
+Installed-Size: 1784817
+Filename: dnsdist-full_1.8.0-pdns3_arm_cortex-a9_neon.ipk
+Size: 1778016
+SHA256sum: efb62c1ccb572b298a1a016ed5cf8d71454d665efc151058fdc97b0b5b5e0ef9
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a9_neon
-Installed-Size: 761245
-Filename: dnsdist_1.8.0-pdns2_arm_cortex-a9_neon.ipk
-Size: 760499
-SHA256sum: bd5170af452d184cd92440d4cc1b19dbe06a70cca8e27cd419c3575ca4aedbc8
+Installed-Size: 778788
+Filename: dnsdist_1.8.0-pdns3_arm_cortex-a9_neon.ipk
+Size: 778233
+SHA256sum: c7e1a8a74637dad3d43270efb4d56f93b659ed1ac52e23293ef3cb822396e9d7
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

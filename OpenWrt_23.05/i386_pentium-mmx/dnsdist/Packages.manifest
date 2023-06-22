@@ -1,6 +1,6 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist-full
@@ -8,35 +8,35 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: i386_pentium-mmx
-Installed-Size: 1565789
-Filename: dnsdist-full_1.8.0-pdns2_i386_pentium-mmx.ipk
-Size: 1560437
-SHA256sum: 5204203f21eb162adbf5b72b1701aa72adf6cedc66615f8a1d0742cd84b12ad7
+Installed-Size: 1582124
+Filename: dnsdist-full_1.8.0-pdns3_i386_pentium-mmx.ipk
+Size: 1576987
+SHA256sum: 0751a263f32b4b1e8cdbd6229793a47bfd7db4012e6d02a4b2d6cd10c0b14795
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl3
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: i386_pentium-mmx
-Installed-Size: 739420
-Filename: dnsdist_1.8.0-pdns2_i386_pentium-mmx.ipk
-Size: 739991
-SHA256sum: 67119f63c41f6a96befff2a169cbfaf2dfb8cfc8e4881ec1c2aa3c5034ebca3e
+Installed-Size: 756808
+Filename: dnsdist_1.8.0-pdns3_i386_pentium-mmx.ipk
+Size: 757848
+SHA256sum: 40be6c275d914b5943d495c58a7613bb35e5d1a15d33135011b8bec6f6bbc267
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

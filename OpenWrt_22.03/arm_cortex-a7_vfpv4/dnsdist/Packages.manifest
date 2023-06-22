@@ -1,6 +1,6 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist-full
@@ -8,35 +8,35 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_cortex-a7_vfpv4
-Installed-Size: 1788646
-Filename: dnsdist-full_1.8.0-pdns2_arm_cortex-a7_vfpv4.ipk
-Size: 1780380
-SHA256sum: 633ccc9e9b5124fbe9a448a7a11fe9cdba5dda3ecc97acc353f48b95eb06e14f
+Installed-Size: 1806558
+Filename: dnsdist-full_1.8.0-pdns3_arm_cortex-a7_vfpv4.ipk
+Size: 1798671
+SHA256sum: 43993693c08136cc9da05cf126c121469cbec8b4d6713d189f93f10b64273dd4
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_cortex-a7_vfpv4
-Installed-Size: 770673
-Filename: dnsdist_1.8.0-pdns2_arm_cortex-a7_vfpv4.ipk
-Size: 769739
-SHA256sum: 7afb5d21f64b53147a71be4387a0efc461d8803ebb03bf2ca045fddd25dabbe7
+Installed-Size: 787283
+Filename: dnsdist_1.8.0-pdns3_arm_cortex-a7_vfpv4.ipk
+Size: 786595
+SHA256sum: 5b9f92cc6d2a6d828e3177b4f5e0fea470fd92d4e5d7da64511961f9f0632289
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

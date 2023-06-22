@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_arm926ej-s
-Installed-Size: 1837630
-Filename: dnsdist-full_1.8.0-pdns2_arm_arm926ej-s.ipk
-Size: 1828887
-SHA256sum: befbdde9bf0afef6bca9232ac9f2f03f1c0b9d9a5a00c862409f24cf99a0730e
+Installed-Size: 1854914
+Filename: dnsdist-full_1.8.0-pdns3_arm_arm926ej-s.ipk
+Size: 1846249
+SHA256sum: fb4afc4c5c8275768be9c807aaa6c5dcf55a4415e1e9573f91fad274cdc8de49
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl3
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_arm926ej-s
-Installed-Size: 786115
-Filename: dnsdist_1.8.0-pdns2_arm_arm926ej-s.ipk
-Size: 785113
-SHA256sum: 49f7fb006609f5de75cf55e57dd48b633d5d8517a4bdf757b3b35e382ad2cf2e
+Installed-Size: 802935
+Filename: dnsdist_1.8.0-pdns3_arm_arm926ej-s.ipk
+Size: 802191
+SHA256sum: 55e3d4e7a0250c6de392f126e40fac03b12c1d756d4453938fe313b119ba0d14
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

@@ -1,6 +1,6 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist-full
@@ -8,35 +8,35 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: powerpc_464fp
-Installed-Size: 1768464
-Filename: dnsdist-full_1.8.0-pdns2_powerpc_464fp.ipk
-Size: 1753190
-SHA256sum: d11ce9720af06fca31cc5cc2e2b225d12aa017115e9f664c19c4746703b70458
+Installed-Size: 1785124
+Filename: dnsdist-full_1.8.0-pdns3_powerpc_464fp.ipk
+Size: 1769872
+SHA256sum: 3b9679461ef5615854e0559d2b190564f6ee7f07e961b4f2554e9a607cf19034
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl3
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687262990
+SourceDateEpoch: 1687446229
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: powerpc_464fp
-Installed-Size: 845418
-Filename: dnsdist_1.8.0-pdns2_powerpc_464fp.ipk
-Size: 841915
-SHA256sum: 92d75e7c017dd211fab4c3ecf8a3e0d15d3983241c6892e00db327db86028ba9
+Installed-Size: 862168
+Filename: dnsdist_1.8.0-pdns3_powerpc_464fp.ipk
+Size: 858882
+SHA256sum: 0b959b577f2cb2d9f7dab491772783a68bfc305bb27e61c320e23740f7cd7799
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

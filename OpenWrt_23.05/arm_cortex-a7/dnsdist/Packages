@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7
-Installed-Size: 1837161
-Filename: dnsdist-full_1.8.0-pdns2_arm_cortex-a7.ipk
-Size: 1828742
-SHA256sum: 941774b46712dfd3186d761a62d7006e17dd055725810dbfc6df74af49a73760
+Installed-Size: 1854312
+Filename: dnsdist-full_1.8.0-pdns3_arm_cortex-a7.ipk
+Size: 1846068
+SHA256sum: ec15b7236ef4250ff31913dc18a9addb579332e1448af183db5913a3780b8d76
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl3
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7
-Installed-Size: 785244
-Filename: dnsdist_1.8.0-pdns2_arm_cortex-a7.ipk
-Size: 784409
-SHA256sum: 08c4332e385568fc76a07b5780e8eb3fd283970a50c5a83e3251ca503c9273ef
+Installed-Size: 802226
+Filename: dnsdist_1.8.0-pdns3_arm_cortex-a7.ipk
+Size: 801546
+SHA256sum: 83c70add47e03b3710891442b5bdc5cd4938281ae10572494602cf1c1696973e
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

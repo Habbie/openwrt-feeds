@@ -1,1 +1,1 @@
-{"architecture": "mips_24kc", "packages":{"dnsdist-full": "1.8.0-pdns2", "dnsdist": "1.8.0-pdns2"}}
+{"architecture": "mips_24kc", "packages":{"dnsdist-full": "1.8.0-pdns3", "dnsdist": "1.8.0-pdns3"}}

@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: aarch64_cortex-a72
-Installed-Size: 1632429
-Filename: dnsdist-full_1.8.0-pdns2_aarch64_cortex-a72.ipk
-Size: 1626404
-SHA256sum: 77927313352b3a49437652ec99e1d1a5ca11071f584559df270c8225650dff66
+Installed-Size: 1648848
+Filename: dnsdist-full_1.8.0-pdns3_aarch64_cortex-a72.ipk
+Size: 1643160
+SHA256sum: cb943eab2c213e95aafd64a828cbd27680131ceb95f612265b4975454f9949d1
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl3
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: aarch64_cortex-a72
-Installed-Size: 847406
-Filename: dnsdist_1.8.0-pdns2_aarch64_cortex-a72.ipk
-Size: 846130
-SHA256sum: bb70345e2bbb424e4e817d554e96e58ee7a69949d5205d597f755bc78b3d927b
+Installed-Size: 864232
+Filename: dnsdist_1.8.0-pdns3_aarch64_cortex-a72.ipk
+Size: 863217
+SHA256sum: e0cdfc00979e7673dffdff6d24d380008638895a7e823c15d34af12143298995
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

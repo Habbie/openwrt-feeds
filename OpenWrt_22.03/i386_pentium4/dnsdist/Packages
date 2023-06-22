@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: i386_pentium4
-Installed-Size: 1475670
-Filename: dnsdist-full_1.8.0-pdns2_i386_pentium4.ipk
-Size: 1462632
-SHA256sum: 2ad39106e6a736e1946f5d6d1fafa7557406059d34422fffdb9442a3a1e86da9
+Installed-Size: 1492012
+Filename: dnsdist-full_1.8.0-pdns3_i386_pentium4.ipk
+Size: 1479207
+SHA256sum: d78ad31ed7a7b0b4a4174d72d9e6940f58f5374d13adbeb0bb2c009e41481654
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns2
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, luajit, libh2o-evloop, libnghttp2-14, libopenssl1.1
+Version: 1.8.0-pdns3
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: i386_pentium4
-Installed-Size: 707995
-Filename: dnsdist_1.8.0-pdns2_i386_pentium4.ipk
-Size: 708595
-SHA256sum: aa049e5799db636c54dda22619e9d96cac8ea2410b089e195d826c2ef6acb1a2
+Installed-Size: 725708
+Filename: dnsdist_1.8.0-pdns3_i386_pentium4.ipk
+Size: 726389
+SHA256sum: a75e49714c6e1e4b089fdc7b400900b91ffed537a35b596d25e487b039b25204
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
