@@ -1,1 +1,1 @@
-{"architecture": "i386_pentium4", "packages":{"dnsdist-full": "1.8.0-pdns3", "dnsdist": "1.8.0-pdns3"}}
+{"architecture": "i386_pentium4", "packages":{"dnsdist-full": "1.8.0-pdns4", "dnsdist": "1.8.0-pdns4"}}

@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: powerpc_8540
-Installed-Size: 1916558
-Filename: dnsdist-full_1.8.0-pdns3_powerpc_8540.ipk
-Size: 1896809
-SHA256sum: b939f0444e1072a19369553db438c6f63a83bf3eea48a24eb0145c17d20d2627
+Installed-Size: 1917250
+Filename: dnsdist-full_1.8.0-pdns4_powerpc_8540.ipk
+Size: 1897775
+SHA256sum: cbcb434eb7bf847e6b61ee6505548d34f001d5aa3fd13ac23fedaed13a5b0292
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: powerpc_8540
-Installed-Size: 887518
-Filename: dnsdist_1.8.0-pdns3_powerpc_8540.ipk
-Size: 882859
-SHA256sum: cf1d797e39c7fc8f39c52a24771614639da6b725873031ca795980aba7ebf043
+Installed-Size: 887777
+Filename: dnsdist_1.8.0-pdns4_powerpc_8540.ipk
+Size: 883060
+SHA256sum: 4a477efc44b51789c1d2b2b139db40a921c1e9980bde36fdcbfa89bb7a2f8eb6
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

@@ -1,5 +1,5 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
@@ -8,20 +8,20 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687446229
+SourceDateEpoch: 1687516248
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_xscale
-Installed-Size: 1854443
-Filename: dnsdist-full_1.8.0-pdns3_arm_xscale.ipk
-Size: 1846179
-SHA256sum: 68410f711603a0d7b3fa0ab24a509d21eb8ee59b05c20bffdb0a8b2014519ad6
+Installed-Size: 1854701
+Filename: dnsdist-full_1.8.0-pdns4_arm_xscale.ipk
+Size: 1846306
+SHA256sum: 8d4bae067f2e61dd1b576e539fb2dab09e7af27123666863e7006293463fbc6f
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
@@ -29,14 +29,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1687446229
+SourceDateEpoch: 1687516248
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_xscale
-Installed-Size: 802119
-Filename: dnsdist_1.8.0-pdns3_arm_xscale.ipk
-Size: 801304
-SHA256sum: e05ae67c3a060a08696d728e0fc08ede88552a2c8f42fe5b7a542ba075d8e5c4
+Installed-Size: 802406
+Filename: dnsdist_1.8.0-pdns4_arm_xscale.ipk
+Size: 801644
+SHA256sum: 3a657f0fea183ca16582325a3a351fb44706906457ffdeeef095bbdad6009aa0
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

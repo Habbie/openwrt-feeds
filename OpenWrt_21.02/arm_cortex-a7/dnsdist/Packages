@@ -1,30 +1,30 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7
-Installed-Size: 1791513
-Filename: dnsdist-full_1.8.0-pdns3_arm_cortex-a7.ipk
-Size: 1785198
-SHA256sum: fe62b2bdf5478e0642daa958c3b4b2cfb2d17d5f83b54042317c5e45aa0f8985
+Installed-Size: 1791707
+Filename: dnsdist-full_1.8.0-pdns4_arm_cortex-a7.ipk
+Size: 1785417
+SHA256sum: 7e326ea4403e59e3f1b3ff62485528b25299cd6b2a721558a1913e7d20413c15
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist
-Version: 1.8.0-pdns3
+Version: 1.8.0-pdns4
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7
-Installed-Size: 779694
-Filename: dnsdist_1.8.0-pdns3_arm_cortex-a7.ipk
-Size: 779280
-SHA256sum: d1f33c18e32605d7ee95d30229b7f9d19725d8a61e6b9a301b289f3b8f551dba
+Installed-Size: 779976
+Filename: dnsdist_1.8.0-pdns4_arm_cortex-a7.ipk
+Size: 779358
+SHA256sum: 8e27bbb805b9805611e3d7e4af057139d1103cc70c6f91414469f2d9ffeaf064
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
