@@ -299,7 +299,6 @@ function M.apply(config)
               ignoreTLSConfigurationErrors = true,
               maxConcurrentTCPConnections = tonumber(config['concurrent_incoming_connections_per_device']),
               numberOfStoredSessions = 0,
-              internalPipeBufferSize = 0,
               minTLSVersion = config['tls_min_version'],
               ciphers = config['tls_ciphers_incoming'],
               ciphersTLS13 = config['tls_ciphers13_incoming']
