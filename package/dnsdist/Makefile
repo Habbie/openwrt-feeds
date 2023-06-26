@@ -137,6 +137,45 @@ Package/dnsdist-full/conffiles=$(call Package/dnsdist/conffiles/Default)
 Package/dnsdist-full/install=$(call Package/dnsdist/install/Default,$1)
 Package/dnsdist-full/postinst=$(call Package/dnsdist/postinst/Default)
 
+# dnsdist-maindns is a convenience package to automatically
+# make dnsdist the main DNS provider on the router
+define Package/dnsdist-maindns
+	SECTION:=net
+	CATEGORY:=Network
+	SUBMENU:=IP Addresses and Names
+	TITLE:=This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+	URL:=http://dnsdist.org
+	DEPENDS:=dnsdist odhcpd
+	PKGARCH:=all
+endef
+
+define Build/dnsdist-maindns/Compile
+	echo nothing to do here
+endef
+
+define Package/dnsdist-maindns/install
+  # nothing to do
+endef
+
+define Package/dnsdist-maindns/postinst
+#!/bin/sh
+uci set 'dhcp.@dnsmasq[0].port=5353'
+uci set 'dhcp.@dnsmasq[0].disabled=1'
+uci set dhcp.odhcpd.maindhcp=1
+uci set dhcp.lan.dhcpv4=server
+uci commit dhcp
+uci set dnsdist.general.enabled=1
+uci commit dnsdist
+/etc/init.d/dnsmasq disable
+/etc/init.d/dnsdist enable || true
+
+echo
+echo dnsmasq disabled, odhcpd set up, dnsdist enabled
+echo Please reboot
+echo
+
+endef
+
 # not everything groks --disable-nls
 DISABLE_NLS:=
 
@@ -198,3 +237,4 @@ CONFIGURE_ARGS+= \
 
 $(eval $(call BuildPackage,dnsdist))
 $(eval $(call BuildPackage,dnsdist-full))
+$(eval $(call BuildPackage,dnsdist-maindns))
