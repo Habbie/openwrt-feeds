@@ -163,6 +163,12 @@ function M.apply(config)
     end
   end
 
+  if inClientStartup then
+    -- in client mode (connecting to a running dnsdist console) we do not care
+    -- about the remaining configuration
+    return
+  end
+
   -- cache
   if config['domain_cache_size'] ~= nil and tonumber(config['domain_cache_size']) > 0 then
 
@@ -458,6 +464,12 @@ function M.loadFromUCI()
 
   config['enabled'] = M.getGeneralUCIOption(cursor, 'enabled', '0')
   if config['enabled'] == '0' then
+    return config
+  end
+
+  if inClientStartup then
+    -- in client mode (connecting to a running dnsdist console) we do not care
+    -- about the remaining configuration
     return config
   end
 
