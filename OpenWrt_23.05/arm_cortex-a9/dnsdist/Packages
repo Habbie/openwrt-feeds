@@ -1,30 +1,43 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns4
+Version: 1.8.0-pdns5
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a9
-Installed-Size: 1854998
-Filename: dnsdist-full_1.8.0-pdns4_arm_cortex-a9.ipk
-Size: 1846524
-SHA256sum: e5ca769fa4ca1c75d14f8cf9236067493de681c23884bd74ebc431aa775bcff3
+Installed-Size: 1855059
+Filename: dnsdist-full_1.8.0-pdns5_arm_cortex-a9.ipk
+Size: 1846578
+SHA256sum: 1ca9edd0eb3dbe8b051559220d40899a14bfa616c0598e361364afa100ec3184
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
+Package: dnsdist-maindns
+Version: 1.8.0-pdns5
+Depends: libc, dnsdist, odhcpd
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: all
+Installed-Size: 102
+Filename: dnsdist-maindns_1.8.0-pdns5_all.ipk
+Size: 1107
+SHA256sum: 52bb401ed017f1ff28117e29b6db4eb12aac1095d6032ab3e61b096fcb5d734a
+Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+
 Package: dnsdist
-Version: 1.8.0-pdns4
+Version: 1.8.0-pdns5
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a9
-Installed-Size: 802214
-Filename: dnsdist_1.8.0-pdns4_arm_cortex-a9.ipk
-Size: 801382
-SHA256sum: e27f1a9a94beeb2ba0a70b8e1251f80d1c14b85a0ca7e64d29aac0d8352f1222
+Installed-Size: 802273
+Filename: dnsdist_1.8.0-pdns5_arm_cortex-a9.ipk
+Size: 801401
+SHA256sum: d9078b956f1295f0e45b4fd89a46737c32b22f60de134963b7af96dbb834c173
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

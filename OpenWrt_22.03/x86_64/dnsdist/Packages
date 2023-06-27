@@ -1,30 +1,43 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns4
+Version: 1.8.0-pdns5
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: x86_64
-Installed-Size: 1927950
-Filename: dnsdist-full_1.8.0-pdns4_x86_64.ipk
-Size: 1922790
-SHA256sum: f3231aad2b4ce283518b7c53d500921a53562b3d1e506ddcd97d5f5f9022f5e8
+Installed-Size: 1928011
+Filename: dnsdist-full_1.8.0-pdns5_x86_64.ipk
+Size: 1922840
+SHA256sum: 9eb685a427931de8c2f0e893aa7c6dc49d6a571a97b3d040ffbf914a4bc34f9d
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
+Package: dnsdist-maindns
+Version: 1.8.0-pdns5
+Depends: libc, dnsdist, odhcpd
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: all
+Installed-Size: 95
+Filename: dnsdist-maindns_1.8.0-pdns5_all.ipk
+Size: 1082
+SHA256sum: 36fef6552807095b78c218d3a2d5033f4f9a2dfac0170b068d87c7163b1824df
+Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+
 Package: dnsdist
-Version: 1.8.0-pdns4
+Version: 1.8.0-pdns5
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: x86_64
-Installed-Size: 876109
-Filename: dnsdist_1.8.0-pdns4_x86_64.ipk
-Size: 876767
-SHA256sum: 75e8f7a2ef2c8314498ec10421c5337177aaed12ffc0765eab64485ac95c5385
+Installed-Size: 876170
+Filename: dnsdist_1.8.0-pdns5_x86_64.ipk
+Size: 876876
+SHA256sum: fef16e81f992e846633e2e538d839cb66b6ffd741d73e47f243c24ae573f580e
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

@@ -15,4 +15,4 @@ These repositories offer two versions of dnsdist:
 
 If you do [your own builds based on our package definition](https://github.com/PowerDNS/openwrt-feeds/tree/main/package) you can also build a version that is exactly right for your needs.
 
-<!-- 54 -->
+<!-- 56 -->
