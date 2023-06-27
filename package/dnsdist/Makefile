@@ -159,7 +159,6 @@ endef
 
 define Package/dnsdist-maindns/postinst
 #!/bin/sh
-uci set 'dhcp.@dnsmasq[0].port=5353'
 uci set 'dhcp.@dnsmasq[0].disabled=1'
 uci set dhcp.odhcpd.maindhcp=1
 uci set dhcp.lan.dhcpv4=server
