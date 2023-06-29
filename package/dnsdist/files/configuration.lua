@@ -163,7 +163,7 @@ function M.apply(config)
     end
   end
 
-  if inClientStartup then
+  if inClientStartup() then
     -- in client mode (connecting to a running dnsdist console) we do not care
     -- about the remaining configuration
     return
@@ -467,7 +467,7 @@ function M.loadFromUCI()
     return config
   end
 
-  if inClientStartup then
+  if inClientStartup() then
     -- in client mode (connecting to a running dnsdist console) we do not care
     -- about the remaining configuration
     return config
