@@ -77,4 +77,4 @@ root@OpenWrt:~# echo nameserver 9.9.9.9 > /tmp/resolv.conf.d/resolv.conf.auto
 root@OpenWrt:~# /etc/init.d/dnsdist restart
 ```
 
-<!-- 57 -->
+<!-- 60 -->
